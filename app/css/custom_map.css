@@ -1,0 +1,42 @@
+.mapify-popOver strong {
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1em;
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.mapify-popOver {
+    color: #999;
+    font-size: 1vw;
+    height: 12vw;
+    /*margin-left: 1px!important;*/
+}
+
+.mapify-popOver-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.mapify-popOver.customPopOver { background: #09f; }
+
+/* Custom hovering style */
+
+.mapify-hover {
+    /*fill: rgba(0,0,0,0.15);*/
+    fill: #2EA7E0;
+    stroke: #fff;
+    stroke-width: 2;
+
+}
+
+.customHover {
+    fill: #09f;
+    stroke: #000;
+    stroke-width: 2;
+}
+
+
