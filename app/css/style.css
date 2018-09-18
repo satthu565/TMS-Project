@@ -441,6 +441,62 @@ footer .up-top a {
   animation-name: fadein-01;
   animation-duration: 3s;
 }
+#header-text-block {
+  background: #2660AD;
+}
+#header-text-block .wrap-header-txt {
+  padding: 80px 30px;
+}
+#header-text-block .wrap-header-txt .title {
+  font-size: 21px;
+  color: #FFF;
+  font-weight: bold;
+}
+#header-text-block .wrap-header-txt .desc {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFF;
+}
+#header-text-block .wrap-header-btn {
+  padding: 100px 80px;
+  background: #FFF;
+}
+#header-button-block {
+  border-bottom: 1px solid #2660AD;
+}
+#header-button-block .wrap-header-btn {
+  padding: 80px 0 45px 0;
+  text-align: center;
+}
+#header-button-block .wrap-header-btn .header-content-btn {
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+#header-button-block .wrap-header-btn .header-content-btn:hover {
+  background: #2660AD;
+  color: #FFF;
+}
+#block-footer-button {
+  border-top: 1px solid #2660AD;
+}
+#block-footer-button .wrap-footer-btn {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+#block-footer-button .wrap-footer-btn .footer-content-btn {
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+#block-footer-button .wrap-footer-btn .footer-content-btn:hover {
+  background: #2660AD;
+  color: #FFF;
+}
 @keyframes fadein-01 {
   from {
     opacity: 0;

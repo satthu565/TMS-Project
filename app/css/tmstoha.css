@@ -441,6 +441,62 @@ footer .up-top a {
   animation-name: fadein-01;
   animation-duration: 3s;
 }
+#header-text-block {
+  background: #2660AD;
+}
+#header-text-block .wrap-header-txt {
+  padding: 80px 30px;
+}
+#header-text-block .wrap-header-txt .title {
+  font-size: 21px;
+  color: #FFF;
+  font-weight: bold;
+}
+#header-text-block .wrap-header-txt .desc {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFF;
+}
+#header-text-block .wrap-header-btn {
+  padding: 100px 80px;
+  background: #FFF;
+}
+#header-button-block {
+  border-bottom: 1px solid #2660AD;
+}
+#header-button-block .wrap-header-btn {
+  padding: 80px 0 45px 0;
+  text-align: center;
+}
+#header-button-block .wrap-header-btn .header-content-btn {
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+#header-button-block .wrap-header-btn .header-content-btn:hover {
+  background: #2660AD;
+  color: #FFF;
+}
+#block-footer-button {
+  border-top: 1px solid #2660AD;
+}
+#block-footer-button .wrap-footer-btn {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+#block-footer-button .wrap-footer-btn .footer-content-btn {
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+#block-footer-button .wrap-footer-btn .footer-content-btn:hover {
+  background: #2660AD;
+  color: #FFF;
+}
 @keyframes fadein-01 {
   from {
     opacity: 0;
@@ -450,73 +506,4 @@ footer .up-top a {
     opacity: 1;
     transform: translateY(0);
   }
-}
-.header-content .header-text {
-  background: #2660AD;
-}
-.header-content .header-text .wrap-header-txt {
-  padding: 80px 30px;
-}
-.header-content .header-text .wrap-header-txt .title {
-  font-size: 21px;
-  color: #FFF;
-  font-weight: bold;
-}
-.header-content .header-text .wrap-header-txt .desc {
-  font-size: 15px;
-  font-weight: bold;
-  color: #FFF;
-}
-.header-content .header-text .wrap-header-btn {
-  padding: 100px 80px;
-  background: #FFF;
-}
-.header-content .header-button {
-  border-bottom: 1px solid #2660AD;
-}
-.header-content .header-button .wrap-header-btn {
-  padding: 80px 0 45px 0;
-  text-align: center;
-}
-.header-content .header-button .wrap-header-btn .header-content-btn {
-  padding: 20px 40px;
-  border: 1px solid #2660AD;
-  color: #2660AD;
-  border-radius: 5px;
-  margin: 0 20px;
-}
-.header-content .header-button .wrap-header-btn .header-content-btn:hover {
-  background: #2660AD;
-  color: #FFF;
-}
-.enkaku-content .top-date {
-  text-align: center;
-  padding: 60px 0 100px 0;
-  border-bottom: 1px solid #2660AD;
-  border-style: dashed;
-}
-.enkaku-content .top-date p {
-  font-size: 15px;
-  color: #2EA7E0;
-}
-.enkaku-content .wrap-content-item .item {
-  padding: 35px 0 35px 100px;
-}
-.footer-content .footer-button {
-  border-top: 1px solid #2660AD;
-}
-.footer-content .footer-button .wrap-footer-btn {
-  padding: 50px 0 80px;
-  text-align: center;
-}
-.footer-content .footer-button .wrap-footer-btn .footer-content-btn {
-  padding: 20px 40px;
-  border: 1px solid #2660AD;
-  color: #2660AD;
-  border-radius: 5px;
-  margin: 0 20px;
-}
-.footer-content .footer-button .wrap-footer-btn .footer-content-btn:hover {
-  background: #2660AD;
-  color: #FFF;
 }
