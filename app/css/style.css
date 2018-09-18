@@ -128,17 +128,18 @@ header .top-header .header-button .mail-icon {
   font-size: 13px;
   font-weight: bold;
 }
-#banner .bottom-banner {
+/*Member_login*/
+#member-login .wrap_member_login {
   padding: 60px;
   background: #DD332D;
   text-align: center;
 }
-#banner .bottom-banner .text {
+#member-login .wrap_member_login .text {
   font-size: 14px;
   margin-bottom: 10px;
   color: #FFF;
 }
-#banner .bottom-banner .button {
+#member-login .wrap_member_login .button {
   border: 1px solid #FFF;
   padding: 10px 100px;
   color: #FFF;
@@ -207,19 +208,16 @@ header .top-header .header-button .mail-icon {
   font-size: 13px;
   font-weight: bold;
 }
-/*Partner*/
-#partner {
-  background: #F1F7F7;
-}
-#partner .partner-img {
+/*monitoring-service*/
+#monitoring-service .partner-img {
   position: relative;
   display: grid;
 }
-#partner .partner-img .main-partner {
+#monitoring-service .partner-img .main-partner {
   width: 100%;
   display: grid;
 }
-#partner .partner-img .inner-partner .img-inner {
+#monitoring-service .partner-img .inner-partner .img-inner {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -227,7 +225,7 @@ header .top-header .header-button .mail-icon {
   -webkit-transform: translateX(-50%) translateY(-50%);
   width: 50vw;
 }
-#partner .partner-img .inner-partner .text-inner {
+#monitoring-service .partner-img .inner-partner .text-inner {
   position: absolute;
   left: 60%;
   top: 50%;
@@ -237,7 +235,7 @@ header .top-header .header-button .mail-icon {
   font-weight: bold;
   color: #2660AD;
 }
-#partner .partner-img .inner-partner .shape-arrow {
+#monitoring-service .partner-img .inner-partner .shape-arrow {
   position: absolute;
   left: 74%;
   top: 50%;
@@ -246,6 +244,10 @@ header .top-header .header-button .mail-icon {
   border-top: 7px solid transparent;
   border-left: 12px solid #2660AD;
   border-bottom: 7px solid transparent;
+}
+/*Partner*/
+#partner {
+  background: #F1F7F7;
 }
 #partner .partner-map {
   padding: 65px 0;
