@@ -125,306 +125,305 @@ header{
   }
 }
 
-main{
-  /*Banner*/
-  #banner{
-    .top-banner{
-      position: relative;
-      margin-bottom: -10px;
+/*Banner*/
+#banner{
+  .top-banner{
+    position: relative;
+    margin-bottom: -10px;
 
-      .banner-img{
-        width: 100%;
-      }
-      .caption{
-        position: absolute;
-        right: 15%;
-        top: 50px;
-        left: 15%;
-        color: @gray-dark;
-        text-align: center;
-
-        .big-slogan{
-          //font-size: 1.8vw;
-          font-size: 30px;
-          font-weight: bold;
-          letter-spacing: 5px;
-        }
-        .smal-slogan{
-          margin-top: 15px;
-          //font-size: 0.8vw;
-          font-size: 13px;
-          font-weight: bold;
-        }
-      }
+    .banner-img{
+      width: 100%;
     }
-    .bottom-banner{
-      padding: 60px;
-      background: @red-color;
+    .caption{
+      position: absolute;
+      right: 15%;
+      top: 50px;
+      left: 15%;
+      color: @gray-dark;
       text-align: center;
 
-      .text{
-        //font-size: 0.9vw;
-        font-size: 14px;
-        margin-bottom: 10px;
-        color: @white;
-      }
-      .button{
-        border: 1px solid @white;
-        padding: 10px 100px;
-        color: @white;
-        //font-size: 1.1vw;
-        font-size: 17px;
-      }
-    }
-  }
-
-  /*News*/
-  #news{
-    padding: 70px 0;
-    text-align: center;
-    .title{
-      margin-bottom: 15px;
-
-      .title-main{
-        //font-size: 1.2vw;
-        font-weight: bold;
+      .big-slogan{
+        //font-size: 1.8vw;
         font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
       }
-      .title-description{
+      .smal-slogan{
+        margin-top: 15px;
+        //font-size: 0.8vw;
         font-size: 13px;
         font-weight: bold;
       }
     }
+  }
+  .bottom-banner{
+    padding: 60px;
+    background: @red-color;
+    text-align: center;
 
-    .wrap-news-item{
+    .text{
+      //font-size: 0.9vw;
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: @white;
+    }
+    .button{
+      border: 1px solid @white;
+      padding: 10px 100px;
+      color: @white;
+      //font-size: 1.1vw;
+      font-size: 17px;
+    }
+  }
+}
+
+
+/*News*/
+#news{
+  padding: 70px 0;
+  text-align: center;
+  .title{
+    margin-bottom: 15px;
+
+    .title-main{
+      //font-size: 1.2vw;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .title-description{
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+
+  .wrap-news-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5vw;
+
+    .item{
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 15px 20px;
+
+      .inner{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid @gray-dark;
+
+        .item-date,
+        .item-title{
+          font-size: 13px;
+          font-weight: bold;
+          text-align: left;
+          padding: 10px;
+        }
+        .item-date{
+          background: @blue-light;
+          border-top: 1px solid @gray-dark;
+        }
+        .wrap-item-title{
+          min-height: 55px;
+          position: relative;
+
+          .item-title{
+            padding-bottom: 20px;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+
+  .news-button{
+    width: 200px;
+    height: 30px;
+    background: @gray;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    a{
+      color: @white;
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+}
+
+/*Partner*/
+#partner{
+  background: @blue-light;
+
+  .partner-img{
+    position: relative;
+    display: grid;
+
+    .main-partner{
+      width: 100%;
+      display: grid;
+    }
+    .inner-partner{
+      .img-inner{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        width: 50vw;
+      }
+      .text-inner{
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        font-size: 20px;
+        font-weight: bold;
+        color: @blue-base;
+      }
+      .shape-arrow{
+        position: absolute;
+        left: 74%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        border-top: 7px solid transparent;
+        border-left: 12px solid @blue-base;
+        border-bottom: 7px solid transparent;
+      }
+    }
+  }
+
+  .partner-map{
+    padding: 65px 0;
+
+    .map-title{
+      text-align: center;
+      //margin-bottom: 20px;
+
+      .title{
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .description{
+        font-size: 13px;
+      }
+    }
+   /* .map-content{
       display: flex;
       flex-wrap: wrap;
-      padding: 0 5vw;
+      text-align: right;
+      padding: 0 10%;
 
-      .item{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-        padding: 15px 20px;
-
-        .inner{
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          border: 1px solid @gray-dark;
-
-          .item-date,
-          .item-title{
-            font-size: 13px;
-            font-weight: bold;
-            text-align: left;
-            padding: 10px;
-          }
-          .item-date{
-            background: @blue-light;
-            border-top: 1px solid @gray-dark;
-          }
-          .wrap-item-title{
-            min-height: 55px;
-            position: relative;
-
-            .item-title{
-              padding-bottom: 20px;
-              position: absolute;
-            }
-          }
+      .map-img{
+        width: 50%;
+        padding-right: 20px;
+        .mapify-popOver-arrow{
+          display: none;
         }
       }
-    }
-
-    .news-button{
-      width: 200px;
-      height: 30px;
-      background: @gray;
-      margin: 0 auto;
-      margin-top: 20px;
-
-      a{
-        color: @white;
-        font-size: 13px;
-        font-weight: bold;
-      }
-    }
-  }
-
-  /*Partner*/
-  #partner{
-    background: @blue-light;
-
-    .partner-img{
-      position: relative;
-      display: grid;
-
-      .main-partner{
-        width: 100%;
-        display: grid;
-      }
-      .inner-partner{
-        .img-inner{
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translateX(-50%) translateY(-50%);
-          -webkit-transform: translateX(-50%) translateY(-50%);
-          width: 50vw;
-        }
-        .text-inner{
-          position: absolute;
-          left: 60%;
-          top: 50%;
-          transform: translateX(-50%) translateY(-50%);
-          -webkit-transform: translateX(-50%) translateY(-50%);
-          font-size: 20px;
-          font-weight: bold;
-          color: @blue-base;
-        }
-        .shape-arrow{
-          position: absolute;
-          left: 74%;
-          top: 50%;
-          transform: translateX(-50%) translateY(-50%);
-          -webkit-transform: translateX(-50%) translateY(-50%);
-          border-top: 7px solid transparent;
-          border-left: 12px solid @blue-base;
-          border-bottom: 7px solid transparent;
-        }
-      }
-    }
-
-    .partner-map{
-      padding: 65px 0;
-
-      .map-title{
-        text-align: center;
-        //margin-bottom: 20px;
-
-        .title{
-          font-size: 30px;
-          font-weight: bold;
-        }
-        .description{
-          font-size: 13px;
-        }
-      }
-      /* .map-content{
-         display: flex;
-         flex-wrap: wrap;
-         text-align: right;
-         padding: 0 10%;
-
-         .map-img{
-           width: 50%;
-           padding-right: 20px;
-           .mapify-popOver-arrow{
-             display: none;
-           }
-         }
-         .map-button{
-           width: 50%;
-           padding-left: 20px;
-           text-align: left;
-           display: flex;
-           flex-wrap: wrap;
-           height: 300px;
-           margin-top: 70px;
-           cursor: pointer;
-           position: relative;
-
-           li.wrap-button{
-             flex: 0 0 25%;
-             max-width: 25%;
-             color: @gray-dark;
-             border: 1px solid @gray-dark;
-             font-size: 15px;
-             width: 120px;
-             height: 80px;
-             text-align: center;
-             display: flex;
-             justify-content: center;
-             flex-direction: column;
-             transition: 0.3s all;
-             margin-right: 15px;
-
-               &:hover{
-                 background: @blue-map;
-                 color: white;
-               }
-
-           }
-           .list-button{
-             position: absolute;
-             bottom: 35px;
-             right: 72px;
-             width: 273px!important;
-             height: 50px!important;
-             flex: 0 0 50%!important;
-             max-width: 50%!important;
-           }
-
-         }
-       }*/
-
-      .map-content{
+      .map-button{
+        width: 50%;
+        padding-left: 20px;
+        text-align: left;
         display: flex;
         flex-wrap: wrap;
-        text-align: right;
-        padding: 0 10%;
+        height: 300px;
+        margin-top: 70px;
+        cursor: pointer;
+        position: relative;
 
-        .map-img{
-          width: 50%;
-          padding-right: 20px;
-          .mapify-popOver-arrow{
-            display: none;
-          }
-        }
-        .map-button{
-          width: 50%;
-          padding-left: 20px;
-          text-align: left;
+        li.wrap-button{
+          flex: 0 0 25%;
+          max-width: 25%;
+          color: @gray-dark;
+          border: 1px solid @gray-dark;
+          font-size: 15px;
+          width: 120px;
+          height: 80px;
+          text-align: center;
           display: flex;
-          flex-wrap: wrap;
-          height: 300px;
-          margin-top: 70px;
+          justify-content: center;
+          flex-direction: column;
+          transition: 0.3s all;
+          margin-right: 15px;
 
-          .wrap-button{
-            flex: 0 0 33.33%;
-            max-width: 33.33%;
-
-            a{
-              color: @gray-dark;
-              border: 1px solid @gray-dark;
-              font-size: 15px;
-              width: 120px;
-              height: 80px;
-              text-align: center;
-              display: flex;
-              justify-content: center;
-              flex-direction: column;
-              transition: 0.3s all;
-
-              &:hover{
-                background: @blue-map;
-                color: white;
-              }
+            &:hover{
+              background: @blue-map;
+              color: white;
             }
-          }
-          .list-button{
-            padding-top: 20px;
-
-            a{
-              width: 273px;
-              height: 50px;
-            }
-
-            flex: 0 0 66.66%;
-            max-width: 66.66%;
-          }
 
         }
+        .list-button{
+          position: absolute;
+          bottom: 35px;
+          right: 72px;
+          width: 273px!important;
+          height: 50px!important;
+          flex: 0 0 50%!important;
+          max-width: 50%!important;
+        }
+
+      }
+    }*/
+
+    .map-content{
+      display: flex;
+      flex-wrap: wrap;
+      text-align: right;
+      padding: 0 10%;
+
+      .map-img{
+        width: 50%;
+        padding-right: 20px;
+        .mapify-popOver-arrow{
+          display: none;
+        }
+      }
+      .map-button{
+        width: 50%;
+        padding-left: 20px;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        margin-top: 70px;
+
+        .wrap-button{
+          flex: 0 0 33.33%;
+          max-width: 33.33%;
+
+          a{
+            color: @gray-dark;
+            border: 1px solid @gray-dark;
+            font-size: 15px;
+            width: 120px;
+            height: 80px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            transition: 0.3s all;
+
+            &:hover{
+              background: @blue-map;
+              color: white;
+            }
+          }
+        }
+        .list-button{
+          padding-top: 20px;
+
+          a{
+            width: 273px;
+            height: 50px;
+          }
+
+          flex: 0 0 66.66%;
+          max-width: 66.66%;
+        }
+
       }
     }
   }
@@ -503,6 +502,23 @@ footer{
       background: @blue-base;
       padding: 5px 30px;
     }
+  }
+}
+
+#fadein-banner {
+  font-weight: bold;
+  animation-name: fadein-01;
+  animation-duration: 3s;
+}
+
+@keyframes fadein-01 {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

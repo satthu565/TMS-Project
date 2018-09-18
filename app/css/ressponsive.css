@@ -49,17 +49,26 @@
     top: 0px;
     background-size: 5vw;
   }
-  main #news .wrap-news-item .item {
+  #news .wrap-news-item .item {
     /*    flex: 0 0 100%!important;
     max-width: 100%!important;*/
   }
-  main #news .wrap-news-item {
-    padding: 0 10vw;
+  #news .wrap-news-item {
+    padding: 0 2.5vw;
   }
-  main #news .wrap-news-item .item .inner img {
-    height: 25vw;
+  #news .wrap-news-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
   }
-  main #partner .partner-map .map-content .map-button li.wrap-button {
+  #news .wrap-news-item .item .inner img {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+  }
+  #partner .partner-map .map-content .map-button li.wrap-button {
     flex: 0 0 20%;
     max-width: 20%;
     margin-right: 2vw;
@@ -93,18 +102,18 @@
   header .top-header .header-button .mail-icon {
     width: 3vw;
   }
-  main #news .wrap-news-item .item .inner .item-date,
-  main #news .wrap-news-item .item .inner .item-title {
+  #news .wrap-news-item .item .inner .item-date,
+  #news .wrap-news-item .item .inner .item-title {
     font-size: 1.2vw;
     padding: 0.5vw;
   }
-  main #news .wrap-news-item .item .inner .wrap-item-title {
+  #news .wrap-news-item .item .inner .wrap-item-title {
     min-height: 5vw;
   }
-  main #news .wrap-news-item .item .inner img {
+  #news .wrap-news-item .item .inner img {
     height: 30vw;
   }
-  main #news .wrap-news-item {
+  #news .wrap-news-item {
     padding: 0 10vw;
   }
   footer .up-top {
@@ -116,112 +125,6 @@
   }
   #pull {
     display: none;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .container {
-    max-width: 768px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  main #banner .top-banner .caption .big-slogan {
-    font-size: 3vw;
-  }
-  main #banner .top-banner .caption {
-    top: 1vw;
-  }
-  main #banner .top-banner .caption .smal-slogan {
-    margin-top: 0.8vw;
-    font-size: 1.5vw;
-  }
-  header .logo img {
-    width: 60vw;
-  }
-  header .top-header {
-    padding: 0 2vw;
-  }
-  header .top-header .header-button a span {
-    font-size: 1.5vw;
-  }
-  header .top-header .header-button a {
-    padding: 0.1vw 1.1vw;
-    margin-top: 2vw;
-  }
-  header .top-header .header-button .mail-icon {
-    width: 2.5vw;
-    margin-right: 0.2vw;
-  }
-  main #banner .bottom-banner .text {
-    font-size: 1.3vw;
-    margin-bottom: 0;
-  }
-  main #banner .bottom-banner .button {
-    font-size: 1.7vw;
-    padding: 0.5vw 10vw;
-    border: 1px solid #FFF;
-  }
-  main #banner .bottom-banner {
-    padding: 3vw;
-  }
-  main #news .title .title-main {
-    font-size: 3vw;
-  }
-  main #news .title .title-description {
-    font-size: 1.2vw;
-  }
-  main #news .wrap-news-item .item {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding: 1vw 1.5vw;
-  }
-  main #news {
-    padding: 3vw 0;
-  }
-  main #news .wrap-news-item .item .inner .item-date,
-  main #news .wrap-news-item .item .inner .item-title {
-    font-size: 1.2vw;
-    padding: 1vw;
-  }
-  main #news .wrap-news-item .item .inner .wrap-item-title {
-    min-height: 5vw;
-  }
-  main #news .news-button a {
-    font-size: 1.5vw;
-    display: table-cell;
-    vertical-align: middle;
-  }
-  main #news .news-button {
-    width: 20vw;
-    height: 4vw;
-    margin-top: 1.5vw;
-    display: table;
-  }
-  main #partner .partner-map .map-title .title {
-    font-size: 3vw;
-  }
-  main #partner .partner-map .map-title .description {
-    font-size: 1.2vw;
-  }
-  main #partner .partner-map {
-    padding: 3vw;
-  }
-  main #partner .partner-map .map-content .map-button {
-    margin-top: 10vw!important;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .container {
-    max-width: 992px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  /*  .up-top a{
-    margin-right: 5vw;
-    font-size: 1.2vw;
-    padding: 0.5vw 3vw;
-  }*/
-  .mapify-popOver {
-    width: 18vw!important;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
@@ -243,38 +146,38 @@
   header .top-header {
     padding: 0 3vw;
   }
-  main #news .wrap-news-item .item {
+  #news .wrap-news-item .item {
     padding: 1.2vw 1.5vw;
   }
-  main #news .wrap-news-item .item .inner .item-date,
-  main #news .wrap-news-item .item .inner .item-title {
+  #news .wrap-news-item .item .inner .item-date,
+  #news .wrap-news-item .item .inner .item-title {
     font-size: 1.2vw;
     padding: 0.5vw;
   }
-  main #news .wrap-news-item .item .inner .wrap-item-title {
+  #news .wrap-news-item .item .inner .wrap-item-title {
     min-height: 5vw;
   }
-  main #news .wrap-news-item .item .inner img {
+  #news .wrap-news-item .item .inner img {
     height: 20vw;
   }
-  main #banner .top-banner .caption .big-slogan {
+  #banner .top-banner .caption .big-slogan {
     font-size: 3vw;
   }
-  main #banner .top-banner .caption .smal-slogan {
+  #banner .top-banner .caption .smal-slogan {
     margin-top: 0.8vw;
     font-size: 1.5vw;
   }
-  main #banner .top-banner .caption {
+  #banner .top-banner .caption {
     top: 1vw;
   }
-  main #banner .bottom-banner {
+  #banner .bottom-banner {
     padding: 3vw;
   }
-  main #banner .bottom-banner .text {
+  #banner .bottom-banner .text {
     font-size: 0.9vw;
     margin-bottom: 0.2vw;
   }
-  main #banner .bottom-banner .button {
+  #banner .bottom-banner .button {
     font-size: 1.2vw;
     padding: 0.5vw 9vw;
   }
@@ -283,19 +186,19 @@
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 1024px) {
-  main #partner .partner-map .map-content .map-button .wrap-button a {
+  #partner .partner-map .map-content .map-button .wrap-button a {
     width: 9.5vw;
   }
-  main #partner .partner-map .map-content .map-button .list-button a {
+  #partner .partner-map .map-content .map-button .list-button a {
     width: 20.5vw !important;
   }
 }
 @media only screen and (max-width: 1200px) {
-  main #partner .partner-img .inner-partner .text-inner {
+  #partner .partner-img .inner-partner .text-inner {
     left: 59vw;
     font-size: 1.5vw;
   }
-  main #partner .partner-img .inner-partner .shape-arrow {
+  #partner .partner-img .inner-partner .shape-arrow {
     border-top: 0.5vw solid transparent;
     border-left: 0.7vw solid #2660AD;
     border-bottom: 0.5vw solid transparent;
@@ -329,23 +232,23 @@
   footer .footer-right .copyright {
     font-size: 0.9vw;
   }
-  main #partner .partner-map .map-content .map-button .wrap-button a {
+  #partner .partner-map .map-content .map-button .wrap-button a {
     font-size: 1.5vw;
     width: 11vw;
     height: 8vw;
   }
-  main #partner .partner-map .map-content .map-button {
+  #partner .partner-map .map-content .map-button {
     height: 25vw;
     margin-top: 7vw;
     padding-left: 2vw;
   }
-  main #partner .partner-map .map-content .map-button .wrap-button {
+  #partner .partner-map .map-content .map-button .wrap-button {
     margin-bottom: 1vw;
   }
-  main #partner .partner-map .map-content .map-button .list-button {
+  #partner .partner-map .map-content .map-button .list-button {
     padding-top: 2vw;
   }
-  main #partner .partner-map .map-content .map-button .list-button a {
+  #partner .partner-map .map-content .map-button .list-button a {
     width: 23.7vw;
     height: 4vw;
   }
@@ -353,12 +256,198 @@
     position: relative;
     bottom: -0.2vw;
   }*/
-  main #partner .partner-map .map-content .map-button li.wrap-button {
+  #partner .partner-map .map-content .map-button li.wrap-button {
     height: 8vw;
     font-size: 1.5vw;
   }
   .mapify-popOver {
     width: 22vw!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #banner .top-banner .caption .big-slogan {
+    font-size: 3vw;
+  }
+  #banner .top-banner .caption {
+    top: 0vw;
+    height: 14.5vw;
+    bottom: 0;
+    margin: auto;
+  }
+  #banner .top-banner .banner-img {
+    width: 250vw;
+    object-fit: cover;
+    object-position: -20vw -10vw;
+    height: 40vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #banner .top-banner .caption .smal-slogan {
+    margin-top: 0.8vw;
+    font-size: 1.5vw;
+  }
+  header .logo img {
+    width: 60vw;
+  }
+  header .top-header {
+    padding: 0 2vw;
+  }
+  header .top-header .header-button a span {
+    font-size: 1.5vw;
+  }
+  header .top-header .header-button a {
+    padding: 0.1vw 1.1vw;
+    margin-top: 2vw;
+  }
+  header .top-header .header-button .mail-icon {
+    width: 2.5vw;
+    margin-right: 0.2vw;
+  }
+  #banner .bottom-banner .text {
+    font-size: 3.2vw;
+    margin-bottom: 5vw;
+  }
+  #banner .top-banner {
+    position: relative;
+    overflow: hidden;
+  }
+  #banner .bottom-banner .button {
+    font-size: 3.8vw;
+    padding: 2vw 20vw;
+    border: 1px solid #FFF;
+  }
+  #banner .bottom-banner {
+    padding: 5vw;
+  }
+  #news .title {
+    margin-bottom: 5vw;
+  }
+  #news .title .title-main {
+    font-size: 4.6vw;
+  }
+  #news .title .title-description {
+    font-size: 3.2vw;
+  }
+  #news .wrap-news-item .item {
+    flex: unset;
+    width: 50%;
+    padding: 1vw 1vw;
+    max-width: none;
+    color: #333;
+  }
+  #news .wrap-news-item .item a {
+    width: 100%;
+    display: block;
+  }
+  #news {
+    padding: 5vw 0;
+  }
+  #news .wrap-news-item .item .inner .wrap-item-title .item-title {
+    padding-bottom: 2vw;
+    position: relative;
+    font-size: 3.2vw;
+  }
+  #news .wrap-news-item .item .inner .item-date,
+  #news .wrap-news-item .item .inner .item-title {
+    font-size: 2.8vw;
+    padding: 1vw;
+  }
+  #news .wrap-news-item .item .inner .wrap-item-title {
+    height: auto;
+    min-height: unset;
+  }
+  #news .news-button a {
+    font-size: 1.5vw;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #news .news-button {
+    width: 20vw;
+    height: 4vw;
+    margin-top: 1.5vw;
+    display: table;
+  }
+  #partner .partner-img {
+    position: relative;
+    display: grid;
+    height: 25vw;
+    overflow: hidden;
+  }
+  #partner .partner-img .main-partner {
+    width: 160%;
+    display: grid;
+    object-fit: cover;
+    object-position: -20vw -5vw;
+    height: 25vw;
+  }
+  #partner .partner-map .map-title .title {
+    font-size: 3vw;
+  }
+  #partner .partner-map .map-title .description {
+    font-size: 1.2vw;
+  }
+  #partner .partner-map {
+    padding: 3vw;
+  }
+  #partner .partner-map .map-content .map-button {
+    margin-top: 10vw!important;
+  }
+  #partner .partner-map .map-content {
+    display: block;
+    flex-wrap: wrap;
+    text-align: right;
+    padding: 0 5%;
+  }
+  #partner .partner-map .map-content .map-img {
+    width: 100%;
+    padding-right: 0;
+  }
+  #partner .partner-map .map-content .map-button {
+    height: auto;
+    margin-top: 7vw;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  #partner .partner-map .map-content .map-button .wrap-button a {
+    font-size: 1.5vw;
+    width: 90%;
+    height: 8vw;
+    padding: 5vw 0;
+  }
+  #partner .partner-map .map-content .map-button .list-button {
+    padding-top: 0;
+  }
+  footer {
+    font-size: 1.2vw;
+    padding: 5vw 6vw 5vw;
+  }
+  footer .footer-left {
+    float: none;
+    margin-bottom: 15px;
+  }
+  footer .footer-right {
+    float: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 992px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /*  .up-top a{
+    margin-right: 5vw;
+    font-size: 1.2vw;
+    padding: 0.5vw 3vw;
+  }*/
+  .mapify-popOver {
+    width: 18vw!important;
   }
 }
 @media only screen and (min-width: 1200px) {
