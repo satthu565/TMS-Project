@@ -545,3 +545,23 @@ footer .up-top a {
   text-align: center;
   padding: 100px 0 90px 0;
 }
+/*Syusi content*/
+#syusi-content {
+  padding: 0px 80px;
+}
+#syusi-content .syusi-title {
+  padding: 60px 0;
+}
+#syusi-content .syusi-title h2 {
+  font-size: 50px;
+  color: #2660AD;
+}
+#syusi-content .syusi-text .text-block {
+  margin-bottom: 40px;
+}
+#syusi-content .syusi-text .text-block p {
+  font-size: 21px;
+}
+#syusi-content .syusi-text .text-block:last-child {
+  margin-bottom: 90px;
+}
