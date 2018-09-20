@@ -56,7 +56,8 @@ header .top-header .header-button a {
   color: #FFF;
   background: #2660AD;
   padding: 5px 15px;
-  margin-top: 15px;
+  margin-top: 12px;
+  position: relative;
 }
 header .top-header .header-button a:hover {
   background: #023982;
@@ -67,6 +68,8 @@ header .top-header .header-button a:hover {
 header .top-header .header-button a span {
   font-size: 15px;
   font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
 }
 header .top-header .header-button .mail-icon {
   width: 22px;
