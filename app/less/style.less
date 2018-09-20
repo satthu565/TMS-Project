@@ -603,19 +603,31 @@ footer{
     }
   }
   .wrap-content-item{
-    padding: 0 70px;
-      .enkaku-table{
+    .item{
+      padding: 35px 0;
+      border-bottom: 1px solid @blue-base;
+      border-style: dashed;
+
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 110px;
+
         p{
           font-size: 17px;
         }
-        .right-content{
-          margin-left: 65px;
+        .left-block{
+          min-width: 110px;
         }
-        tr{
-          display: flex;
-          flex-wrap: wrap;
+        .right-block{
+          padding-left: 60px;
         }
       }
+    }
+    .foot-date{
+      text-align: center;
+      padding: 100px 0 90px 0;
+    }
   }
 }
 
