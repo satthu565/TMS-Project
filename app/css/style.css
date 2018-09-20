@@ -507,3 +507,28 @@ footer .up-top a {
     transform: translateY(0);
   }
 }
+/*Enkaku content*/
+#enkaku-content .top-date {
+  text-align: center;
+  padding: 60px 0 100px 0;
+  border-bottom: 1px solid #2660AD;
+  border-style: dashed;
+}
+#enkaku-content .top-date p {
+  font-size: 15px;
+  color: #2EA7E0;
+  letter-spacing: 2px;
+}
+#enkaku-content .wrap-content-item {
+  padding: 0 70px;
+}
+#enkaku-content .wrap-content-item .enkaku-table p {
+  font-size: 17px;
+}
+#enkaku-content .wrap-content-item .enkaku-table .right-content {
+  margin-left: 65px;
+}
+#enkaku-content .wrap-content-item .enkaku-table tr {
+  display: flex;
+  flex-wrap: wrap;
+}
