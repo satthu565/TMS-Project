@@ -660,7 +660,66 @@ footer{
     }
 
   }
+}
 
+/*zigyonaiyo-content*/
+#zigyonaiyo-content{
+  .zigyou-img{
+    img{
+      border-bottom: 1px solid @blue-base;
+    }
+  }
+  .zigyou-block{
+    border-bottom: 1px solid @blue-base;
+
+    .container{
+      padding: 50px 110px;
+
+      .title{
+        font-size: 18px;
+        color: @blue-base;
+        margin-bottom: 50px;
+      }
+
+      .content{
+        .top-content{
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .edu-wrap{
+      .container{
+        padding: 65px 110px;
+        display: flex;
+
+        .button{
+          flex-basis: 370px;
+          margin-right: 20px;
+          a{
+            padding: 15px;
+            border: 1px solid @blue-base;
+            color: @blue-base;
+            min-width: 225px;
+            text-align: center;
+            background: @white;
+          }
+        }
+        .text{
+          margin-left: 20px;
+          padding-right: 140px;
+        }
+      }
+      .type-1{
+        background-color: #F1F7F7;
+      }
+      .type-2{
+        background-color: #CBE0E0;
+      }
+    }
+    &:last-child{
+      border-bottom: none;
+    }
+  }
 }
 
 

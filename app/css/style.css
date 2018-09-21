@@ -565,3 +565,50 @@ footer .up-top a {
 #syusi-content .syusi-text .text-block:last-child {
   margin-bottom: 90px;
 }
+/*zigyonaiyo-content*/
+#zigyonaiyo-content .zigyou-img img {
+  border-bottom: 1px solid #2660AD;
+}
+#zigyonaiyo-content .zigyou-block {
+  border-bottom: 1px solid #2660AD;
+}
+#zigyonaiyo-content .zigyou-block .container {
+  padding: 50px 110px;
+}
+#zigyonaiyo-content .zigyou-block .container .title {
+  font-size: 18px;
+  color: #2660AD;
+  margin-bottom: 50px;
+}
+#zigyonaiyo-content .zigyou-block .container .content .top-content {
+  margin-bottom: 20px;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .container {
+  padding: 65px 110px;
+  display: flex;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .container .button {
+  flex-basis: 370px;
+  margin-right: 20px;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .container .button a {
+  padding: 15px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  min-width: 225px;
+  text-align: center;
+  background: #FFF;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .container .text {
+  margin-left: 20px;
+  padding-right: 140px;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .type-1 {
+  background-color: #F1F7F7;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .type-2 {
+  background-color: #CBE0E0;
+}
+#zigyonaiyo-content .zigyou-block:last-child {
+  border-bottom: none;
+}
