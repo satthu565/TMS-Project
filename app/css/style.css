@@ -612,3 +612,68 @@ footer .up-top a {
 #zigyonaiyo-content .zigyou-block:last-child {
   border-bottom: none;
 }
+/*Katsudo content*/
+#katsudo-content {
+  padding: 70px 0 100px;
+}
+#katsudo-content .container {
+  padding: 0 110px;
+}
+#katsudo-content .container .katsudo-title {
+  margin-bottom: 40px;
+}
+#katsudo-content .container .katsudo-title p {
+  font-size: 18px;
+  color: #2660AD;
+}
+#katsudo-content .container .katsudo-table table {
+  width: 100%;
+  font-size: 16px;
+  color: #2660AD;
+}
+#katsudo-content .container .katsudo-table table tr th {
+  border: 1px solid #2660AD;
+  text-align: center;
+  padding: 20px;
+}
+#katsudo-content .container .katsudo-table table tr td {
+  border: 1px solid #2660AD;
+  padding: 20px;
+  vertical-align: top;
+}
+#katsudo-content .container .katsudo-table table tr td img {
+  max-width: 40px;
+}
+#katsudo-content .container .katsudo-table table tr td.td-type-1 {
+  color: #FFF;
+  background-color: #52B4E1;
+}
+#katsudo-content .container .katsudo-table table tr td.td-type-2 {
+  color: #FFF;
+  background-color: #96C3CC;
+}
+#katsudo-content .container .katsudo-table table tr td.td-type-3 {
+  color: #2660AD;
+  background-color: #D8EDF7;
+}
+#katsudo-content .container .katsudo-table table tr td.td-type-4 {
+  color: #2660AD;
+  background-color: #D9EBEE;
+}
+#katsudo-content .container .katsudo-table table tr td.width-11 {
+  width: 11%;
+  text-align: center;
+}
+#katsudo-content .container .katsudo-table table tr td .rotate {
+  transform: rotate(90deg);
+}
+#katsudo-content .container .katsudo-table table tr .text-center {
+  text-align: center;
+}
+#katsudo-content .container .footer-text {
+  padding: 15px 0 0 5px;
+}
+#katsudo-content .container .footer-text p {
+  font-size: 13px;
+  color: #2660AD;
+}

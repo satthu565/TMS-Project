@@ -722,4 +722,83 @@ footer{
   }
 }
 
+/*Katsudo content*/
+#katsudo-content{
+  padding: 70px 0 100px;
+
+  .container{
+    padding: 0 110px;
+
+    .katsudo-title{
+      margin-bottom: 40px;
+
+      p{
+        font-size: 18px;
+        color: @blue-base;
+      }
+    }
+    .katsudo-table{
+      table{
+        width: 100%;
+        font-size: 16px;
+        color: @blue-base;
+
+        tr{
+          @border: 1px solid @blue-base;
+          @padding: 20px;
+          th{
+            border: @border;
+            text-align: center;
+            padding: @padding;
+          }
+          td{
+            border: @border;
+            padding: @padding;
+            vertical-align: top;
+
+            img{
+              max-width: 40px;
+            }
+            &.td-type-1{
+              color: @white;
+              background-color: #52B4E1;
+            }
+            &.td-type-2{
+              color: @white;
+              background-color: #96C3CC;
+            }
+            &.td-type-3{
+              color: @blue-base;
+              background-color: #D8EDF7;
+            }
+            &.td-type-4{
+              color: @blue-base;
+              background-color: #D9EBEE;
+            }
+            &.width-11{
+              width: 11%;
+              text-align: center;
+            }
+            .rotate{
+              transform: rotate(90deg);
+            }
+          }
+
+          .text-center{
+            text-align: center;
+          }
+        }
+      }
+    }
+    .footer-text{
+      padding: 15px 0 0 5px;
+
+      p{
+        font-size: 13px;
+        color: @blue-base
+      }
+    }
+  }
+}
+
 

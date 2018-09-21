@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>TSM</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/ressponsive.css">
-    <link rel="stylesheet" type="text/css" href="./css/jquery.mapify.css">
-    <link rel="stylesheet" type="text/css" href="./css/custom_map.css">
-    <link rel="stylesheet" type="text/css" href="./css/custom_map.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ressponsive.css">
 </head>
 <body>
 <header>
@@ -18,7 +14,7 @@
         <div class="logo">
             <h1>
                 <a href="#">
-                    <img src="./images/logo.png" alt="">
+                    <img src="./images/logo.svg" alt="">
                 </a>
             </h1>
         </div>
@@ -46,19 +42,17 @@
 <!--End header-->
 
 <main class="clear">
-    <section class="header-content">
-        <div class="header-text">
-            <div class="container">
-                <div class="wrap-header-txt">
-                    <div class="title">組合について</div>
-                    <div class="desc">Kanto Truck Monitoring Cooperative Association</div>
-                </div>
+    <section id="header-text-block">
+        <div class="container">
+            <div class="wrap-header-txt">
+                <div class="title">組合について</div>
+                <div class="desc">Kanto Truck Monitoring Cooperative Association</div>
             </div>
         </div>
     </section>
 
-    <section class="katsudo-content">
-        <div class="container wrap-content">
+    <section id="katsudo-content">
+        <div class="container">
             <div class="katsudo-title">
                 <p>
                     平成29年度活動予定
@@ -73,119 +67,143 @@
                         <th>資料DL</th>
                     </tr>
                     <tr>
-                        <td rowspan="3">2月</th>
-                        <td>2日(木)</td>
-                        <td>第1回　理事会</td>
+                        <td rowspan="3" class="td-type-1 width-11">2月</th>
+                        <td class="td-type-1 width-11">2日(木)</td>
+                        <td class="td-type-3">第1回　理事会</td>
                         <td>東京自動車興業㈱本社</td>
-                        <td>27日(月)</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td>4</td>
-                        <td>第14回　通常総会</td>
+                        <td class="td-type-1 width-11">27日(月)</td>
+                        <td class="td-type-3">第14回　通常総会</td>
                         <td rowspan="2">あいおいニッセイ同和損害保険㈱ <br>
                             新宿第一支社
                         </td>
-                        <td>9</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>27日(月)</td>
-                        <td>第2回　理事会</td>
-                        <td>10</td>
+                        <td class="td-type-1 width-11">27日(月)</td>
+                        <td class="td-type-3">第2回　理事会</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td rowspan="2">3月</td>
-                        <td rowspan="2">15日(水)</td>
-                        <td>第1回　事業委員会</td>
+                        <td rowspan="2" class="td-type-2 width-11">3月</td>
+                        <td rowspan="2" class="td-type-2 width-11">15日(水)</td>
+                        <td class="td-type-4">第1回　事業委員会</td>
                         <td rowspan="2">東京</td>
-                        <td>16</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>第３回　理事会</td>
-                        <td>17</td>
+                        <td class="td-type-4">第３回　理事会</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td>4月</td>
-                        <td>12日(水)</td>
-                        <td>第１回　工場見学会(会員)</td>
+                        <td class="td-type-1 width-11">4月</td>
+                        <td class="td-type-1 width-11">12日(水)</td>
+                        <td class="td-type-3">第１回　工場見学会(会員)</td>
                         <td>交運社</td>
-                        <td>22</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td>5月</td>
-                        <td>25日(木)</td>
-                        <td>第１回　フロントセミナー</td>
+                        <td class="td-type-2 width-11">5月</td>
+                        <td class="td-type-2 width-11">25日(木)</td>
+                        <td class="td-type-4">第１回　フロントセミナー</td>
                         <td>未定</td>
-                        <td>27</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">6月</td>
-                        <td rowspan="2">14日(水)</td>
-                        <td >第２回　事業委員会</td>
+                        <td rowspan="2" class="td-type-1 width-11">6月</td>
+                        <td rowspan="2" class="td-type-1 width-11">14日(水)</td>
+                        <td class="td-type-3">第２回　事業委員会</td>
                         <td rowspan="2" >東京</td>
-                        <td >33</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
 
                     </tr>
                     <tr>
-                        <td >第４回　理事会</td>
-                        <td >34</td>
+                        <td class="td-type-3">第４回　理事会</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td>7月</td>
-                        <td>19日(水)</td>
-                        <td>第１回　技術セミナー</td>
+                        <td class="td-type-2 width-11">7月</td>
+                        <td class="td-type-2 width-11">19日(水)</td>
+                        <td class="td-type-4">第１回　技術セミナー</td>
                         <td>未定</td>
-                        <td>39</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>8月</td>
-                        <td>23日(水)</td>
-                        <td>第２回　工場見学会(員外)</td>
+                        <td class="td-type-1 width-11">8月</td>
+                        <td class="td-type-1 width-11">23日(水)</td>
+                        <td class="td-type-3">第２回　工場見学会(員外)</td>
                         <td>未定</td>
-                        <td>44</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td rowspan="3">9月</td>
-                        <td rowspan="3">
-                            10日(日)
-                            〜
-                            11日(月)
+                        <td rowspan="3" class="td-type-2 width-11">9月</td>
+                        <td rowspan="3" class="td-type-2 width-11">
+                            <p>10日(日)</p>
+                            <br><br>
+                            <p class="rotate">〜</p>
+                            <br><br>
+                            <p>11日(月)</p>
                         </td>
-                        <td>経営者セミナー</td>
+                        <td class="td-type-4">経営者セミナー</td>
                         <td rowspan="3">未定</td>
-                        <td>51</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>第３回　事業委員会</td>
-                        <td>52</td>
+                        <td class="td-type-4">第３回　事業委員会</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>第５回　理事会</td>
-                        <td>53</td>
+                        <td class="td-type-4">第５回　理事会</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td>11月</td>
-                        <td>15日(水)</td>
-                        <td>第２回　技術セミナー</td>
+                        <td class="td-type-1 width-11">11月</td>
+                        <td class="td-type-1 width-11">15日(水)</td>
+                        <td class="td-type-3">第２回　技術セミナー</td>
                         <td>未定</td>
-                        <td>58</td>
+                        <td class="text-center">ー</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">12月</td>
-                        <td rowspan="2">13日(水)</td>
-                        <td>第４回　事業委員会
+                        <td rowspan="2" class="td-type-2 width-11">12月</td>
+                        <td rowspan="2" class="td-type-2 width-11">13日(水)</td>
+                        <td class="td-type-4">第４回　事業委員会
                         </td>
                         <td rowspan="2">東京	</td>
-                        <td>64</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                     <tr>
-                        <td>第６回　理事会</td>
-                        <td>65</td>
+                        <td class="td-type-4">第６回　理事会</td>
+                        <td class="text-center"><img src="./images/download.svg" alt=""></td>
                     </tr>
                 </table>
             </div>
             <div class="footer-text">
                 <p>※資料ダウンロードには、組合員ID・PASSWORDが必要です</p>
             </div>
+        </div>
+    </section>
+
+    <section id="monitoring-service">
+        <div class="partner-img">
+            <img class="main-partner" src="./images/partner-bg-img.png" alt="">
+            <a href="#" class="inner-partner">
+                <img class="img-inner" src="./images/partner-button.png" alt="">
+                <p class="text-inner">トラックモニタリングサービスとは</p>
+                <div class="shape-arrow"></div>
+            </a>
+            <a href="#" class="inner-partner box">
+                <p class="text-inner">トラックモニタリングサービスとは</p>
+                <div class="shape-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <section id="member-login">
+        <div class="wrap_member_login">
+            <p class="text">Login for exclusive use of the member</p>
+            <a href="#" class="button">組合員専用ページ</a>
         </div>
     </section>
 </main>
@@ -220,11 +238,7 @@
     </div>
 </footer>
 <!--End footer-->
-
-<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
 <script type="text/javascript" src="./js/jquery-3.1.0.js"></script>
-<!--<script type="text/javascript" src="./js/jquery.mapify.js"></script>-->
-<script type="text/javascript" src="./js/jquery.imagemapster.js"></script>
 <script type="text/javascript" src="./js/custom.js"></script>
 </body>
 </html>
