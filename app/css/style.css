@@ -481,6 +481,7 @@ footer .up-top a {
   color: #2660AD;
   border-radius: 5px;
   margin: 0 20px;
+  text-align: center;
 }
 #header-button-block .wrap-header-btn .header-content-btn:hover {
   background: #2660AD;
@@ -499,6 +500,7 @@ footer .up-top a {
   color: #2660AD;
   border-radius: 5px;
   margin: 0 20px;
+  text-align: center;
 }
 #block-footer-button .wrap-footer-btn .footer-content-btn:hover {
   background: #2660AD;
@@ -786,4 +788,134 @@ footer .up-top a {
 }
 #katudozisseki2-content .bottom-content p:first-child {
   margin-bottom: 20px;
+}
+/*kumiaiinitiran content*/
+#gmap {
+  position: relative;
+}
+#gmap iframe {
+  width: 100%;
+}
+#kumiaiinitiran-content .container {
+  padding: 60px 110px;
+}
+#kumiaiinitiran-content .container .top-content .top-title {
+  text-align: center;
+  color: #2660AD;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+#kumiaiinitiran-content .container .top-content .top-title span {
+  margin-right: 5px;
+}
+#kumiaiinitiran-content .container .top-content .top-title span img {
+  width: 23px;
+  vertical-align: middle;
+}
+#kumiaiinitiran-content .container .top-content .top-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+#kumiaiinitiran-content .container .top-content .top-button a {
+  width: 20%;
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+  text-align: center;
+  padding: 15px 40px;
+  margin-bottom: 30px;
+}
+#kumiaiinitiran-content .container .top-content .top-button a:hover {
+  background: #2660AD;
+  color: #FFF;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .title {
+  font-size: 16px;
+  color: #2660AD;
+  position: relative;
+  margin: 50px 0;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .title:before {
+  content: url(../images/line.svg);
+  position: absolute;
+  width: 100%;
+  top: -20px;
+  left: 0;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .title:after {
+  content: url(../images/line.svg);
+  position: absolute;
+  width: 100%;
+  bottom: -12px;
+  left: 0;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .location-box {
+  border: 1px solid #2660AD;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .location-box .box-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 30px;
+  border-bottom: 1px solid #2660AD;
+  border-style: dashed;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .location-box .box-item:last-child {
+  border-bottom: none;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .location-box .box-item .name {
+  font-size: 16px;
+  color: #231815;
+  min-width: 20%;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .location-box .box-item .desc {
+  font-size: 16px;
+  color: #2660AD;
+}
+#kumiaiinitiran-content .container .main-content .wrap-item .last-line {
+  opacity: 0.2;
+  padding: 30px 0 50px 0;
+}
+#kumiaiinitiran-content .container .bottom-content .top-title {
+  text-align: center;
+  color: #2660AD;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+#kumiaiinitiran-content .container .bottom-content .top-title span {
+  margin-right: 5px;
+}
+#kumiaiinitiran-content .container .bottom-content .top-title span img {
+  width: 23px;
+  vertical-align: middle;
+}
+#kumiaiinitiran-content .container .bottom-content .top-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+#kumiaiinitiran-content .container .bottom-content .top-button a {
+  width: 20%;
+  padding: 20px 40px;
+  border: 1px solid #2660AD;
+  color: #2660AD;
+  border-radius: 5px;
+  margin: 0 20px;
+  text-align: center;
+  padding: 15px 40px;
+  margin-bottom: 30px;
+}
+#kumiaiinitiran-content .container .bottom-content .top-button a:hover {
+  background: #2660AD;
+  color: #FFF;
+}
+#kumiaiinitiran-content .container .bottom-content .top-title {
+  margin-top: 20px;
+}
+#kumiaiinitiran-content .container .bottom-content .top-button {
+  margin-bottom: 30px;
 }

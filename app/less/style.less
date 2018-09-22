@@ -559,6 +559,7 @@ footer{
       color: @blue-base;
       border-radius: 5px;
       margin: 0 20px;
+      text-align: center;
 
       &:hover{
         background: @blue-base;
@@ -930,6 +931,110 @@ footer{
 
       &:first-child{
         margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+/*kumiaiinitiran content*/
+#gmap {
+  position: relative;
+  iframe {
+    width: 100%;
+  }
+}
+#kumiaiinitiran-content{
+  .container{
+    padding: 60px 110px;
+
+    .top-content{
+      .top-title{
+        text-align: center;
+        color: @blue-base;
+        font-size: 17px;
+        margin-bottom: 35px;
+
+        span{
+          margin-right: 5px;
+          img{
+            width: 23px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .top-button{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 100px;
+
+        a{
+          width: 20%;
+          #header-button-block .wrap-header-btn .header-content-btn;
+          padding: 15px 40px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .main-content{
+      .wrap-item{
+        .title{
+          font-size: 16px;
+          color: @blue-base;
+          position: relative;
+          margin: 50px 0;
+
+          &:before{
+            content: url(../images/line.svg);
+            position: absolute;
+            width: 100%;
+            top: -20px;
+            left: 0;
+          }
+          &:after{
+            content: url(../images/line.svg);
+            position: absolute;
+            width: 100%;
+            bottom: -12px;
+            left: 0;
+          }
+        }
+        .location-box{
+          border: 1px solid @blue-base;
+
+          .box-item{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 30px;
+            .border-bottom-dash;
+
+            &:last-child{
+              border-bottom: none;
+            }
+            .name{
+              font-size: 16px;
+              color: @gray-dark;
+              min-width: 20%;
+            }
+            .desc{
+              font-size: 16px;
+              color: @blue-base;
+            }
+          }
+        }
+        .last-line{
+          opacity: 0.2;
+          padding: 30px 0 50px 0;
+        }
+      }
+    }
+    .bottom-content{
+      .top-content;
+      .top-title{
+        margin-top: 20px;
+      }
+      .top-button{
+        margin-bottom: 30px;
       }
     }
   }
