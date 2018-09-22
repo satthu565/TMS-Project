@@ -48,7 +48,10 @@ a{
   background: @blue-map;
   color: @white!important;
 }
-
+.border-bottom-dash{
+  border-bottom: 1px solid @blue-base;
+  border-style: dashed;
+}
 
 
 /*Header*/
@@ -596,8 +599,7 @@ footer{
   .top-date{
     text-align: center;
     padding: 60px 0 100px 0;
-    border-bottom: 1px solid @blue-base;
-    border-style: dashed;
+    .border-bottom-dash;
 
     p{
       font-size: 15px;
@@ -608,8 +610,7 @@ footer{
   .wrap-content-item{
     .item{
       padding: 35px 0;
-      border-bottom: 1px solid @blue-base;
-      border-style: dashed;
+      .border-bottom-dash;
 
       .container{
         display: flex;
@@ -796,6 +797,139 @@ footer{
       p{
         font-size: 13px;
         color: @blue-base
+      }
+    }
+  }
+}
+
+
+/*Katudozisseki2 content*/
+#katudozisseki2-content{
+  .top-content{
+    padding: 65px 0px;
+    text-align: center;
+    .border-bottom-dash;
+
+    a{
+      font-size: 15px;
+      color: #27BAEE;
+    }
+    p{
+      letter-spacing: 3px;
+
+      &:first-child{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .main-content{
+    .container{
+      padding: 0 110px;
+    }
+    .table-item{
+      padding: 45px 0px;
+      .border-bottom-dash;
+
+      .title{
+        font-size: 18px;
+        color: @blue-base;
+        margin-bottom: 30px;
+      }
+      table{
+        width: 100%;
+        font-size: 16px;
+        color: @blue-base;
+
+        tr{
+          @border: 1px solid @blue-base;
+          @padding: 20px;
+
+          th{
+            border: @border;
+            text-align: center;
+            padding: @padding;
+          }
+          td{
+            border: @border;
+            padding: @padding;
+            vertical-align: top;
+
+            &.td-type-1{
+              background-color: @blue-light;
+            }
+
+            &.text-right{
+              text-align: right;
+            }
+          }
+
+        }
+      }
+    }
+  }
+  .wrap-pagination{
+    padding: 0 110px;
+
+    .pagination{
+      font-size: 14px;
+      color: @blue-base;
+      padding: 25px 160px;
+      display: flex;
+      justify-content: space-between;
+
+      .page-number{
+
+      }
+      .page-list{
+
+        ul{
+          position: relative;
+          li{
+            display: inline-block;
+
+            a{
+              padding: 2px 10px;
+              border: 1px solid @blue-base;
+              color: @blue-base;
+            }
+          }
+          &:before{
+            content: url(../images/arrow-left.svg);
+            display: block;
+            height: 10px;
+            width: 10px;
+            top: 50%;
+            margin-top: -10px;
+            left: -25px;
+            position: absolute;
+          }
+          &:after{
+            content: url(../images/arrow-right.svg);
+            display: block;
+            height: 10px;
+            width: 10px;
+            top: 50%;
+            margin-top: -10px;
+            right: -25px;
+            position: absolute;
+          }
+        }
+      }
+    }
+  }
+  .bottom-content{
+    padding: 55px 0px 80px;
+    text-align: center;
+
+    a{
+      font-size: 15px;
+      color: #27BAEE;
+    }
+    p{
+      letter-spacing: 3px;
+
+      &:first-child{
+        margin-bottom: 20px;
       }
     }
   }
