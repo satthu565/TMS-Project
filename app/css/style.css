@@ -1087,3 +1087,55 @@ footer .up-top a {
 #gaiyo-content .gaiyo-block .wrap-content ol li:last-child {
   margin-bottom: 0;
 }
+/*Toha content*/
+#truck-banner img {
+  width: 100%;
+}
+#toha-content {
+  margin-bottom: 110px;
+}
+#toha-content .toha-service .container {
+  padding: 70px 110px 80px;
+  text-align: center;
+}
+#toha-content .toha-service .container .service-title {
+  margin-bottom: 85px;
+}
+#toha-content .toha-service .container .service-title .big-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+#toha-content .toha-service .container .service-title .small-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+#toha-content .toha-service .container .image {
+  margin-bottom: 50px;
+}
+#toha-content .toha-service .container .image img {
+  max-width: 890px;
+}
+#toha-content .toha-service .container .desc {
+  font-size: 16px;
+}
+#toha-content .benefit .bnf-item {
+  text-align: center;
+}
+#toha-content .benefit .bnf-item .bnf-title {
+  font-size: 22px;
+  color: #FFF;
+  background-color: #9AC3C3;
+  padding: 10px 0;
+}
+#toha-content .benefit .bnf-item .bnf-desc {
+  font-size: 16px;
+  color: #231815;
+  padding: 15px 0;
+  background-color: #F1F7F7;
+}
+#toha-content .benefit .bnf-item .bnf-desc .blue-text {
+  color: #9AC3C3;
+}
+#toha-content .benefit .bnf-item.last-item .bnf-desc {
+  padding-bottom: 90px;
+}
