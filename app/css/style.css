@@ -985,3 +985,105 @@ footer .up-top a {
   font-size: 14px;
   font-weight: bold;
 }
+/*Gaiyo content*/
+#gaiyo-content .location .wrap-content {
+  padding: 60px 110px;
+}
+#gaiyo-content .location .wrap-content table {
+  font-size: 16px;
+  color: #231815;
+  border: 1px solid #231815;
+  width: 100%;
+}
+#gaiyo-content .location .wrap-content table tr {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #231815;
+}
+#gaiyo-content .location .wrap-content table tr:last-child {
+  border-bottom: none;
+}
+#gaiyo-content .location .wrap-content table tr td {
+  padding: 23px 30px;
+}
+#gaiyo-content .location .wrap-content table tr td.name {
+  min-width: 20%;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gaiyo-top-location {
+  margin-bottom: 50px;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button {
+  font-size: 14px;
+  color: #2660AD;
+  padding: 8px 10px;
+  border: 1px solid #2660AD;
+  margin-top: 15px;
+  min-width: 156px;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button img {
+  max-width: 13px;
+  max-height: 20px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+#gaiyo-content .gaiyo-block {
+  border-top: 1px solid #2660AD;
+}
+#gaiyo-content .gaiyo-block .wrap-content {
+  counter-reset: my-sec-counter;
+  padding: 60px 110px;
+}
+#gaiyo-content .gaiyo-block .wrap-content table {
+  font-size: 16px;
+  color: #231815;
+  border: 1px solid #231815;
+  width: 100%;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #231815;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr:last-child {
+  border-bottom: none;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td {
+  padding: 23px 30px;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.name {
+  min-width: 20%;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gaiyo-top-location {
+  margin-bottom: 50px;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button {
+  font-size: 14px;
+  color: #2660AD;
+  padding: 8px 10px;
+  border: 1px solid #2660AD;
+  margin-top: 15px;
+  min-width: 156px;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button img {
+  max-width: 13px;
+  max-height: 20px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+#gaiyo-content .gaiyo-block .wrap-content .title {
+  font-size: 18px;
+  color: #2660AD;
+  margin-bottom: 40px;
+}
+#gaiyo-content .gaiyo-block .wrap-content ol li {
+  display: flex;
+  margin-bottom: 30px;
+}
+#gaiyo-content .gaiyo-block .wrap-content ol li::before {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter) ". ";
+  margin-right: 15px;
+}
+#gaiyo-content .gaiyo-block .wrap-content ol li:last-child {
+  margin-bottom: 0;
+}

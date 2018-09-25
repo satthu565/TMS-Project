@@ -1115,4 +1115,86 @@ footer{
   }
 }
 
+/*Gaiyo content*/
+#gaiyo-content{
+  .location{
+    .wrap-content {
+      padding: 60px 110px;
+      table {
+        font-size: 16px;
+        color: @gray-dark;
+        border: 1px solid @gray-dark;
+        width: 100%;
+
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+          border-bottom: 1px solid @gray-dark;
+
+          &:last-child{
+            border-bottom: none;
+          }
+          td {
+            padding: 23px 30px;
+
+            &.name {
+              min-width: 20%;
+            }
+            &.desc {
+              .gaiyo-top-location {
+                margin-bottom: 50px;
+              }
+              .gmap-button {
+                font-size: 14px;
+                color: @blue-base;
+                padding: 8px 10px;
+                border: 1px solid @blue-base;
+                margin-top: 15px;
+                min-width: 156px;
+
+                img {
+                  max-width: 13px;
+                  max-height: 20px;
+                  margin-right: 5px;
+                  vertical-align: top;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .gaiyo-block{
+    border-top: 1px solid @blue-base;
+
+    .wrap-content{
+      counter-reset: my-sec-counter;
+      .location .wrap-content;
+
+      .title{
+        font-size: 18px;
+        color: @blue-base;
+        margin-bottom: 40px;
+      }
+      ol{
+        li{
+          display: flex;
+          margin-bottom: 30px;
+
+          &::before{
+            counter-increment: my-sec-counter;
+            content: counter(my-sec-counter) ". ";
+            margin-right: 15px;
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 
