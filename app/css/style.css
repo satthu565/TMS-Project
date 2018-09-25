@@ -452,7 +452,7 @@ footer .up-top a {
   background: #2660AD;
 }
 #header-text-block .wrap-header-txt {
-  padding: 80px 30px;
+  padding: 65px 30px;
 }
 #header-text-block .wrap-header-txt .title {
   font-size: 21px;
@@ -462,6 +462,19 @@ footer .up-top a {
 #header-text-block .wrap-header-txt .desc {
   font-size: 15px;
   font-weight: bold;
+  color: #FFF;
+}
+#header-text-block .login-header-txt {
+  display: flex;
+}
+#header-text-block .login-header-txt .right-text {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#header-text-block .login-header-txt .right-text p {
+  font-size: 13px;
   color: #FFF;
 }
 #header-text-block .wrap-header-btn {
@@ -918,4 +931,57 @@ footer .up-top a {
 }
 #kumiaiinitiran-content .container .bottom-content .top-button {
   margin-bottom: 30px;
+}
+/*login content*/
+#login-content {
+  background-color: #DD332D;
+  padding: 120px 0 350px;
+  color: #FFF;
+  text-align: center;
+}
+#login-content .login-title {
+  margin-bottom: 30px;
+}
+#login-content .login-title .small-text {
+  font-size: 14px;
+}
+#login-content .login-title .large-text {
+  font-size: 21px;
+}
+#login-content .login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+#login-content .login-form p {
+  text-align: left;
+  font-size: 14px;
+}
+#login-content .login-form input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  padding-left: 15px;
+}
+#login-content .login-form input[type='checkbox'] {
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+}
+#login-content .login-form .user-name {
+  margin-bottom: 20px;
+}
+#login-content .login-form .remember {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#login-content .login-form button[type='submit'] {
+  width: 200px;
+  height: 30px;
+  background-color: #C9CACA;
+  color: #FFF;
+  border: none;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: bold;
 }
