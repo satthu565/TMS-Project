@@ -183,6 +183,7 @@ header .top-header .header-button .mail-icon {
   display: flex;
   flex-direction: column;
   border: 1px solid #231815;
+  color: #231815;
 }
 #news .wrap-news-item .item .inner .item-date,
 #news .wrap-news-item .item .inner .item-title {
@@ -541,6 +542,9 @@ footer .up-top a {
   color: #2EA7E0;
   letter-spacing: 2px;
 }
+#enkaku-content .top-date p .black {
+  color: #231815;
+}
 #enkaku-content .wrap-content-item .item {
   padding: 35px 0;
   border-bottom: 1px solid #2660AD;
@@ -563,6 +567,10 @@ footer .up-top a {
 #enkaku-content .wrap-content-item .foot-date {
   text-align: center;
   padding: 100px 0 90px 0;
+  color: #2660AD;
+}
+#enkaku-content .wrap-content-item .foot-date .black {
+  color: #231815;
 }
 /*Syusi content*/
 #syusi-content {
@@ -851,6 +859,7 @@ footer .up-top a {
   color: #2660AD;
   position: relative;
   margin: 50px 0;
+  padding-left: 5px;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .title:before {
   content: url(../images/line.svg);
