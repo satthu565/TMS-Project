@@ -1263,5 +1263,142 @@ footer{
   }
 }
 
+/*kumiaibosyu content*/
+#kumiaibosyu-content{
+  background-color: @blue-light;
+
+  .wrap-kumiai{
+    padding: 75px 110px 65px 110px;
+
+    .recruitment{
+      margin-bottom: 60px;
+
+      .title{
+        color: @blue-base;
+        font-size: 18px;
+        margin-bottom: 35px;
+      }
+     /* .desc{
+        letter-spacing: 1.3px;
+      }*/
+    }
+    .kumiai-location{
+      .wrap-row{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        border-bottom: 1px solid @gray-dark;
+
+        .title{
+          min-width: 20%;
+        }
+        &:last-child{
+          border-bottom: 0;
+        }
+      }
+    }
+    .kumiai-table{
+      padding-top: 60px;
+
+      table{
+        width: 100%;
+
+        tr{
+          @border: 1px solid @gray-dark;
+          td,th{
+            text-align: center;
+            border: @border;
+            padding: 10px 0;
+            &.white{
+              background-color: @white;
+            }
+            &.blue{
+              background-color: @blue-base;
+              color: @white;
+            }
+            &.red{
+              background-color: @red-color;
+              color: @white;
+            }
+          }
+          th{
+            &.width-20{
+              width: 20%;
+            }
+            &.width-40{
+              width: 40%;
+            }
+          }
+        }
+      }
+      .notice{
+        margin-top: 25px;
+        font-size: 14px;
+      }
+    }
+  }
+  .button{
+    text-align: center;
+    background-color: #CBE0E0;
+    padding: 50px 0;
+
+    .wrap-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a{
+        border: 1px solid @white;
+        padding: 15px 50px 10px 50px;
+        color: @white;
+        position: relative;
+        font-size: 22px;
+        margin: 0 100px;
+
+        p{
+          font-size: 16px;
+          color: @blue-base;
+          background-color: @white;
+          border-radius: 25px;
+          padding: 0px 20px;
+        }
+        &:first-child{
+          background: @blue-base;
+        }
+        &:last-child{
+          background: @red-color;
+        }
+        &:after{
+          content: url(../images/download.svg);
+          min-width: 70px;
+          position: absolute;
+          background: @white;
+          top: -1px;
+          right: -120px;
+          padding: 11.5px 25px;
+        }
+      }
+    }
+  }
+  .price{
+    .container{
+      padding: 60px 110px 80px 110px;
+
+      .wrap-price{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-top: 1px solid @gray-dark;
+        border-bottom: 1px solid @gray-dark;
+        padding: 30px 0;
+
+        .left-content{
+          min-width: 25%;
+        }
+      }
+    }
+  }
+}
+
 
 
