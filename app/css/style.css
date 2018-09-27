@@ -225,33 +225,33 @@ header .top-header .header-button .mail-icon {
   width: 100%;
   display: grid;
 }
-#monitoring-service .partner-img .inner-partner .img-inner {
+#monitoring-service .partner-img .inner-partner {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 57vw;
+  height: 8vw;
+}
+#monitoring-service .partner-img .inner-partner img {
+  width: 20vw;
+  margin-left: 5vw;
 }
 #monitoring-service .partner-img .inner-partner .text-inner {
-  position: absolute;
-  left: 60%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
   font-size: 20px;
   font-weight: bold;
   color: #2660AD;
 }
 #monitoring-service .partner-img .inner-partner .shape-arrow {
-  position: absolute;
-  left: 74%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
   border-top: 7px solid transparent;
   border-left: 12px solid #2660AD;
   border-bottom: 7px solid transparent;
+  margin-right: 1vw;
 }
 /*Partner*/
 #partner {
