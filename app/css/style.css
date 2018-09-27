@@ -550,18 +550,17 @@ footer .up-top a {
   border-bottom: 1px solid #2660AD;
   border-style: dashed;
 }
-#enkaku-content .wrap-content-item .item .container {
+#enkaku-content .wrap-content-item .item .container .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 110px;
 }
-#enkaku-content .wrap-content-item .item .container p {
+#enkaku-content .wrap-content-item .item .container .row p {
   font-size: 17px;
 }
-#enkaku-content .wrap-content-item .item .container .left-block {
+#enkaku-content .wrap-content-item .item .container .row .left-block {
   min-width: 110px;
 }
-#enkaku-content .wrap-content-item .item .container .right-block {
+#enkaku-content .wrap-content-item .item .container .row .right-block {
   padding-left: 60px;
 }
 #enkaku-content .wrap-content-item .foot-date {
@@ -573,9 +572,6 @@ footer .up-top a {
   color: #231815;
 }
 /*Syusi content*/
-#syusi-content {
-  padding: 0px 75px;
-}
 #syusi-content .syusi-title {
   padding: 60px 0;
 }
@@ -600,7 +596,7 @@ footer .up-top a {
   border-bottom: 1px solid #2660AD;
 }
 #zigyonaiyo-content .zigyou-block .container {
-  padding: 50px 110px;
+  padding: 50px 0px;
 }
 #zigyonaiyo-content .zigyou-block .container .title {
   font-size: 18px;
@@ -642,9 +638,6 @@ footer .up-top a {
 /*Katsudo content*/
 #katsudo-content {
   padding: 70px 0 100px;
-}
-#katsudo-content .container {
-  padding: 0 110px;
 }
 #katsudo-content .container .katsudo-title {
   margin-bottom: 40px;
@@ -720,9 +713,6 @@ footer .up-top a {
 }
 #katudozisseki2-content .top-content p:first-child {
   margin-bottom: 20px;
-}
-#katudozisseki2-content .main-content .container {
-  padding: 0 110px;
 }
 #katudozisseki2-content .main-content .table-item {
   padding: 45px 0px;
@@ -818,7 +808,7 @@ footer .up-top a {
   width: 100%;
 }
 #kumiaiinitiran-content .container {
-  padding: 60px 110px;
+  padding: 60px 0px;
 }
 #kumiaiinitiran-content .container .top-content .top-title {
   text-align: center;
@@ -996,7 +986,7 @@ footer .up-top a {
 }
 /*Gaiyo content*/
 #gaiyo-content .location .wrap-content {
-  padding: 60px 110px;
+  padding: 60px 0px;
 }
 #gaiyo-content .location .wrap-content table {
   font-size: 16px;
@@ -1040,7 +1030,7 @@ footer .up-top a {
 }
 #gaiyo-content .gaiyo-block .wrap-content {
   counter-reset: my-sec-counter;
-  padding: 60px 110px;
+  padding: 60px 0px;
 }
 #gaiyo-content .gaiyo-block .wrap-content table {
   font-size: 16px;
@@ -1104,7 +1094,7 @@ footer .up-top a {
   margin-bottom: 110px;
 }
 #toha-content .toha-service .container {
-  padding: 70px 110px 80px;
+  padding: 70px 0px 80px;
   text-align: center;
 }
 #toha-content .toha-service .container .service-title {
@@ -1153,7 +1143,7 @@ footer .up-top a {
   background-color: #F1F7F7;
 }
 #kumiaibosyu-content .wrap-kumiai {
-  padding: 75px 110px 65px 110px;
+  padding: 75px 0px 65px;
 }
 #kumiaibosyu-content .wrap-kumiai .recruitment {
   margin-bottom: 60px;
@@ -1255,7 +1245,7 @@ footer .up-top a {
   padding: 11.5px 25px;
 }
 #kumiaibosyu-content .price .container {
-  padding: 60px 110px 80px 110px;
+  padding: 60px 0px 80px;
 }
 #kumiaibosyu-content .price .container .wrap-price {
   display: flex;
