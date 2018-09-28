@@ -21,8 +21,8 @@ a {
 /*Font icon*/
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?dtqqg');
-  src: url('../fonts/icomoon.eot?dtqqg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?dtqqg') format('truetype'), url('../fonts/icomoon.woff?dtqqg') format('woff'), url('../fonts/icomoon.svg?dtqqg#icomoon') format('svg');
+  src: url('../fonts/tms_font.eot?w71b6v');
+  src: url('../fonts/tms_font.eot?w71b6v#iefix') format('embedded-opentype'), url('../fonts/tms_font.ttf?w71b6v') format('truetype'), url('../fonts/tms_font.woff?w71b6v') format('woff'), url('../fonts/tms_font.svg?w71b6v#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -40,23 +40,30 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-kumiai_search_icon:before {
+.icon-menu-1:before {
   content: "\e900";
   color: #2660ac;
 }
-.icon-location_icon .path1:before {
+.icon-kumiai_search_icon:before {
   content: "\e901";
   color: #2660ac;
 }
-.icon-location_icon .path2:before {
+.icon-location_icon .path1:before {
   content: "\e902";
-  margin-left: -0.66796875em;
-  color: #ffffff;
+  color: #2660ac;
+  font-family: 'icomoon' !important;
 }
-.icon-location_icon .path3:before {
+.icon-location_icon .path2:before {
   content: "\e903";
   margin-left: -0.66796875em;
+  color: #ffffff;
+  font-family: 'icomoon' !important;
+}
+.icon-location_icon .path3:before {
+  content: "\e908";
+  margin-left: -0.66796875em;
   color: #2660ac;
+  font-family: 'icomoon' !important;
 }
 .icon-menu-2:before {
   content: "\e904";
@@ -64,6 +71,7 @@ a {
 }
 .icon-menu-3:before {
   content: "\e905";
+  color: #2660ac;
 }
 .icon-menu-4:before {
   content: "\e906";
@@ -72,9 +80,6 @@ a {
 .icon-menu-5:before {
   content: "\e907";
   color: #2660ac;
-}
-.icon-menu-1:before {
-  content: "\e908";
 }
 .icon-email:before {
   content: "\e909";
@@ -88,6 +93,7 @@ a {
   content: "\e90b";
   color: #2660ac;
 }
+/*End font icon*/
 /*Header*/
 header {
   margin: 0 auto;
@@ -121,8 +127,8 @@ header .top-header .header-button a span {
   display: inline-block;
   vertical-align: middle;
 }
-header .top-header .header-button .mail-icon {
-  width: 22px;
+header .top-header .header-button .icon-email {
+  font-size: 14px;
   vertical-align: sub;
   margin-right: 10px;
   vertical-align: middle;
@@ -147,13 +153,14 @@ header .top-header .header-button .mail-icon {
   display: block;
 }
 .menu ul li a .menu-icon {
-  width: 22px;
-  vertical-align: sub;
+  font-size: 22px;
+  vertical-align: middle;
   margin-right: 10px;
 }
 .menu ul li a .menu-text {
   font-size: 16px;
   font-weight: bold;
+  vertical-align: middle;
 }
 /*Banner*/
 #banner .top-banner {
@@ -880,6 +887,11 @@ footer .up-top a {
   width: 23px;
   vertical-align: middle;
 }
+#kumiaiinitiran-content .container .top-content .top-title .icon-kumiai_search_icon {
+  font-size: 23px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 #kumiaiinitiran-content .container .top-content .top-button {
   display: flex;
   flex-wrap: wrap;
@@ -960,6 +972,11 @@ footer .up-top a {
 #kumiaiinitiran-content .container .bottom-content .top-title span img {
   width: 23px;
   vertical-align: middle;
+}
+#kumiaiinitiran-content .container .bottom-content .top-title .icon-kumiai_search_icon {
+  font-size: 23px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 #kumiaiinitiran-content .container .bottom-content .top-button {
   display: flex;
@@ -1076,6 +1093,11 @@ footer .up-top a {
   margin-top: 15px;
   min-width: 156px;
 }
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button .icon-location_icon {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
 #gaiyo-content .location .wrap-content table tr td.desc .gmap-button img {
   max-width: 13px;
   max-height: 20px;
@@ -1119,6 +1141,11 @@ footer .up-top a {
   border: 1px solid #2660AD;
   margin-top: 15px;
   min-width: 156px;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button .icon-location_icon {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 8px;
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button img {
   max-width: 13px;

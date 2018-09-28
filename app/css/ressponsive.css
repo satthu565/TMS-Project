@@ -94,13 +94,13 @@
     font-size: 2vw;
   }
   .menu ul li a .menu-icon {
-    width: 3vw;
+    font-size: 3vw;
   }
   header .top-header .header-button a span {
     font-size: 1.7vw;
   }
-  header .top-header .header-button .mail-icon {
-    width: 3vw;
+  header .top-header .header-button .icon-email {
+    font-size: 2vw;
   }
   #news .wrap-news-item .item .inner .item-date,
   #news .wrap-news-item .item .inner .item-title {
@@ -134,14 +134,11 @@
   .menu ul li a .menu-text {
     font-size: 2vw;
   }
-  .menu ul li a .menu-icon {
-    width: 3vw;
-  }
   .menu ul li a .menu-text {
     font-size: 1.5vw;
   }
   .menu ul li a .menu-icon {
-    width: 2vw;
+    font-size: 2vw;
   }
   header .top-header {
     padding: 0 3vw;
@@ -304,8 +301,7 @@
     padding: 0.1vw 1.1vw;
     margin-top: 2vw;
   }
-  header .top-header .header-button .mail-icon {
-    width: 2.5vw;
+  header .top-header .header-button .icon-email {
     margin-right: 0.2vw;
   }
   #member-login .wrap_member_login .text {
