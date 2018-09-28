@@ -94,7 +94,7 @@
     font-size: 2vw;
   }
   .menu ul li a .menu-icon {
-    width: 3vw;
+    font-size: 3vw;
   }
   header .top-header .header-button a span {
     font-size: 1.7vw;
@@ -134,14 +134,11 @@
   .menu ul li a .menu-text {
     font-size: 2vw;
   }
-  .menu ul li a .menu-icon {
-    width: 3vw;
-  }
   .menu ul li a .menu-text {
     font-size: 1.5vw;
   }
   .menu ul li a .menu-icon {
-    width: 2vw;
+    font-size: 2vw;
   }
   header .top-header {
     padding: 0 3vw;

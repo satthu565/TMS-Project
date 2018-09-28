@@ -36,11 +36,11 @@ a{
 /*Font icon*/
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?dtqqg');
-  src:  url('../fonts/icomoon.eot?dtqqg#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?dtqqg') format('truetype'),
-  url('../fonts/icomoon.woff?dtqqg') format('woff'),
-  url('../fonts/icomoon.svg?dtqqg#icomoon') format('svg');
+  src:  url('../fonts/tms_font.eot?w71b6v');
+  src:  url('../fonts/tms_font.eot?w71b6v#iefix') format('embedded-opentype'),
+  url('../fonts/tms_font.ttf?w71b6v') format('truetype'),
+  url('../fonts/tms_font.woff?w71b6v') format('woff'),
+  url('../fonts/tms_font.svg?w71b6v#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,21 +60,25 @@ a{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-kumiai_search_icon:before {
+.icon-menu-1:before {
   content: "\e900";
   color: #2660ac;
 }
-.icon-location_icon .path1:before {
+.icon-kumiai_search_icon:before {
   content: "\e901";
+  color: #2660ac;
+}
+.icon-location_icon .path1:before {
+  content: "\e902";
   color: rgb(38, 96, 172);
 }
 .icon-location_icon .path2:before {
-  content: "\e902";
+  content: "\e903";
   margin-left: -0.66796875em;
   color: rgb(255, 255, 255);
 }
 .icon-location_icon .path3:before {
-  content: "\e903";
+  content: "\e908";
   margin-left: -0.66796875em;
   color: rgb(38, 96, 172);
 }
@@ -84,6 +88,7 @@ a{
 }
 .icon-menu-3:before {
   content: "\e905";
+  color: #2660ac;
 }
 .icon-menu-4:before {
   content: "\e906";
@@ -92,9 +97,6 @@ a{
 .icon-menu-5:before {
   content: "\e907";
   color: #2660ac;
-}
-.icon-menu-1:before {
-  content: "\e908";
 }
 .icon-email:before {
   content: "\e909";
@@ -108,6 +110,7 @@ a{
   content: "\e90b";
   color: #2660ac;
 }
+/*End font icon*/
 
 /*Header*/
 header{
@@ -173,13 +176,14 @@ header{
         display: block;
 
         .menu-icon{
-          width: 22px;
-          vertical-align: sub;
+         font-size: 22px;
+          vertical-align: middle;
           margin-right: 10px;
         }
         .menu-text{
           font-size: 16px;
           font-weight: bold;
+          vertical-align: middle;
         }
       }
     }
