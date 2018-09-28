@@ -979,35 +979,23 @@ footer{
               &:hover{
                 .link_hover(@blue-base,@white)
               }
-              &:first-child{
-                img{
-                  display: block;
-                  height: 10px;
-                  width: 10px;
+            }
+            &:first-child,
+            &:last-child{
+              a{
+                border-color: @white;
+
+                i{
+                  font-size: 10px;
+                }
+                &:hover{
+                  border-color: @blue-base;
+                  i:before{
+                    color: @white;
+                  }
                 }
               }
-
             }
-          }
-          &:before{
-            content: url(../images/arrow-left.svg);
-            display: block;
-            height: 10px;
-            width: 10px;
-            top: 50%;
-            margin-top: -10px;
-            left: -25px;
-            position: absolute;
-          }
-          &:after{
-            content: url(../images/arrow-right.svg);
-            display: block;
-            height: 10px;
-            width: 10px;
-            top: 50%;
-            margin-top: -10px;
-            right: -25px;
-            position: absolute;
           }
         }
       }

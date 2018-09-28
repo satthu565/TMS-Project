@@ -827,30 +827,21 @@ footer .up-top a {
   background-color: #2660AD;
   color: #FFF;
 }
-#katudozisseki2-content .wrap-pagination .pagination .page-list ul li a:first-child img {
-  display: block;
-  height: 10px;
-  width: 10px;
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:first-child a,
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:last-child a {
+  border-color: #FFF;
 }
-#katudozisseki2-content .wrap-pagination .pagination .page-list ul:before {
-  content: url(../images/arrow-left.svg);
-  display: block;
-  height: 10px;
-  width: 10px;
-  top: 50%;
-  margin-top: -10px;
-  left: -25px;
-  position: absolute;
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:first-child a i,
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:last-child a i {
+  font-size: 10px;
 }
-#katudozisseki2-content .wrap-pagination .pagination .page-list ul:after {
-  content: url(../images/arrow-right.svg);
-  display: block;
-  height: 10px;
-  width: 10px;
-  top: 50%;
-  margin-top: -10px;
-  right: -25px;
-  position: absolute;
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:first-child a:hover,
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:last-child a:hover {
+  border-color: #2660AD;
+}
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:first-child a:hover i:before,
+#katudozisseki2-content .wrap-pagination .pagination .page-list ul li:last-child a:hover i:before {
+  color: #FFF;
 }
 #katudozisseki2-content .bottom-content {
   padding: 55px 0px 80px;
