@@ -99,8 +99,8 @@
   header .top-header .header-button a span {
     font-size: 1.7vw;
   }
-  header .top-header .header-button .mail-icon {
-    width: 3vw;
+  header .top-header .header-button .icon-email {
+    font-size: 2vw;
   }
   #news .wrap-news-item .item .inner .item-date,
   #news .wrap-news-item .item .inner .item-title {
@@ -304,8 +304,7 @@
     padding: 0.1vw 1.1vw;
     margin-top: 2vw;
   }
-  header .top-header .header-button .mail-icon {
-    width: 2.5vw;
+  header .top-header .header-button .icon-email {
     margin-right: 0.2vw;
   }
   #member-login .wrap_member_login .text {
