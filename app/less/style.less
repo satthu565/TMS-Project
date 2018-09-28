@@ -179,6 +179,9 @@ header{
         color: @blue-base;
         display: block;
 
+        &:hover{
+          background-color: #CBE0E0;
+        }
         .menu-icon{
          font-size: 22px;
           vertical-align: middle;
@@ -393,63 +396,6 @@ header{
         font-size: 13px;
       }
     }
-   /* .map-content{
-      display: flex;
-      flex-wrap: wrap;
-      text-align: right;
-      padding: 0 10%;
-
-      .map-img{
-        width: 50%;
-        padding-right: 20px;
-        .mapify-popOver-arrow{
-          display: none;
-        }
-      }
-      .map-button{
-        width: 50%;
-        padding-left: 20px;
-        text-align: left;
-        display: flex;
-        flex-wrap: wrap;
-        height: 300px;
-        margin-top: 70px;
-        cursor: pointer;
-        position: relative;
-
-        li.wrap-button{
-          flex: 0 0 25%;
-          max-width: 25%;
-          color: @gray-dark;
-          border: 1px solid @gray-dark;
-          font-size: 15px;
-          width: 120px;
-          height: 80px;
-          text-align: center;
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          transition: 0.3s all;
-          margin-right: 15px;
-
-            &:hover{
-              background: @blue-map;
-              color: white;
-            }
-
-        }
-        .list-button{
-          position: absolute;
-          bottom: 35px;
-          right: 72px;
-          width: 273px!important;
-          height: 50px!important;
-          flex: 0 0 50%!important;
-          max-width: 50%!important;
-        }
-
-      }
-    }*/
 
     .map-content{
       display: flex;
@@ -542,6 +488,9 @@ footer{
       border: 1px solid @white;
       color: @white;
       padding: 0 10px;
+      &:hover{
+        .link_hover(@white,@blue-base)
+      }
     }
   }
 
@@ -800,6 +749,10 @@ footer{
             min-width: 225px;
             text-align: center;
             background: @white;
+
+            &:hover{
+              .link_hover(@blue-base,@white)
+            }
           }
         }
         .text{
@@ -1191,6 +1144,11 @@ footer{
       margin-top: 40px;
       font-size: 14px;
       font-weight: bold;
+
+      &:hover{
+        background-color: @blue-base;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -1242,6 +1200,18 @@ footer{
                   max-height: 20px;
                   margin-right: 5px;
                   vertical-align: top;
+                }
+                &:hover{
+                  .link_hover(@blue-base,@white);
+                  .path1:before{
+                    color: @white;
+                  }
+                  .path2:before{
+                    color: @blue-base;
+                  }
+                  .path3:before{
+                    color: @white;
+                  }
                 }
               }
             }
@@ -1363,9 +1333,6 @@ footer{
         font-size: 18px;
         margin-bottom: 35px;
       }
-     /* .desc{
-        letter-spacing: 1.3px;
-      }*/
     }
     .kumiai-location{
       .wrap-row{
@@ -1449,9 +1416,17 @@ footer{
         }
         &:first-child{
           background: @blue-base;
+
+          &:hover{
+            background-color: #023982;
+          }
         }
         &:last-child{
           background: @red-color;
+
+          &:hover{
+            background-color: #bc2620;
+          }
         }
         &:after{
           content: url(../images/download.svg);

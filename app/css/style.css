@@ -152,6 +152,9 @@ header .top-header .header-button .icon-email {
   color: #2660AD;
   display: block;
 }
+.menu ul li a:hover {
+  background-color: #CBE0E0;
+}
 .menu ul li a .menu-icon {
   font-size: 22px;
   vertical-align: middle;
@@ -319,63 +322,6 @@ header .top-header .header-button .icon-email {
 }
 #partner .partner-map {
   padding: 65px 0;
-  /* .map-content{
-      display: flex;
-      flex-wrap: wrap;
-      text-align: right;
-      padding: 0 10%;
-
-      .map-img{
-        width: 50%;
-        padding-right: 20px;
-        .mapify-popOver-arrow{
-          display: none;
-        }
-      }
-      .map-button{
-        width: 50%;
-        padding-left: 20px;
-        text-align: left;
-        display: flex;
-        flex-wrap: wrap;
-        height: 300px;
-        margin-top: 70px;
-        cursor: pointer;
-        position: relative;
-
-        li.wrap-button{
-          flex: 0 0 25%;
-          max-width: 25%;
-          color: @gray-dark;
-          border: 1px solid @gray-dark;
-          font-size: 15px;
-          width: 120px;
-          height: 80px;
-          text-align: center;
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          transition: 0.3s all;
-          margin-right: 15px;
-
-            &:hover{
-              background: @blue-map;
-              color: white;
-            }
-
-        }
-        .list-button{
-          position: absolute;
-          bottom: 35px;
-          right: 72px;
-          width: 273px!important;
-          height: 50px!important;
-          flex: 0 0 50%!important;
-          max-width: 50%!important;
-        }
-
-      }
-    }*/
 }
 #partner .partner-map .map-title {
   text-align: center;
@@ -468,6 +414,10 @@ footer .footer-left .map-button {
   border: 1px solid #FFF;
   color: #FFF;
   padding: 0 10px;
+}
+footer .footer-left .map-button:hover {
+  background-color: #FFF;
+  color: #2660AD;
 }
 footer .footer-right {
   float: right;
@@ -685,6 +635,10 @@ footer .up-top a {
   min-width: 225px;
   text-align: center;
   background: #FFF;
+}
+#zigyonaiyo-content .zigyou-block .edu-wrap .container .button a:hover {
+  background-color: #2660AD;
+  color: #FFF;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .text {
   margin-left: 20px;
@@ -1058,6 +1012,10 @@ footer .up-top a {
   font-size: 14px;
   font-weight: bold;
 }
+#login-content .login-form button[type='submit']:hover {
+  background-color: #2660AD;
+  cursor: pointer;
+}
 /*Gaiyo content*/
 #gaiyo-content .location .wrap-content {
   padding: 60px 0px;
@@ -1103,6 +1061,19 @@ footer .up-top a {
   max-height: 20px;
   margin-right: 5px;
   vertical-align: top;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button:hover {
+  background-color: #2660AD;
+  color: #FFF;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button:hover .path1:before {
+  color: #FFF;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button:hover .path2:before {
+  color: #2660AD;
+}
+#gaiyo-content .location .wrap-content table tr td.desc .gmap-button:hover .path3:before {
+  color: #FFF;
 }
 #gaiyo-content .gaiyo-block {
   border-top: 1px solid #2660AD;
@@ -1152,6 +1123,19 @@ footer .up-top a {
   max-height: 20px;
   margin-right: 5px;
   vertical-align: top;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button:hover {
+  background-color: #2660AD;
+  color: #FFF;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button:hover .path1:before {
+  color: #FFF;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button:hover .path2:before {
+  color: #2660AD;
+}
+#gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button:hover .path3:before {
+  color: #FFF;
 }
 #gaiyo-content .gaiyo-block .wrap-content .title {
   font-size: 18px;
@@ -1231,9 +1215,6 @@ footer .up-top a {
 }
 #kumiaibosyu-content .wrap-kumiai .recruitment {
   margin-bottom: 60px;
-  /* .desc{
-        letter-spacing: 1.3px;
-      }*/
 }
 #kumiaibosyu-content .wrap-kumiai .recruitment .title {
   color: #2660AD;
@@ -1316,8 +1297,14 @@ footer .up-top a {
 #kumiaibosyu-content .button .wrap-button a:first-child {
   background: #2660AD;
 }
+#kumiaibosyu-content .button .wrap-button a:first-child:hover {
+  background-color: #023982;
+}
 #kumiaibosyu-content .button .wrap-button a:last-child {
   background: #DD332D;
+}
+#kumiaibosyu-content .button .wrap-button a:last-child:hover {
+  background-color: #bc2620;
 }
 #kumiaibosyu-content .button .wrap-button a:after {
   content: url(../images/download.svg);
