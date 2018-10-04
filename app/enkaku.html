@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="./css/ressponsive.css">
 </head>
-<body>
+<body id="st-container" class="st-container">
+    <div class="st-pusher">
     <header>
         <div class="top-header container">
             <div class="logo">
@@ -27,7 +28,7 @@
 
         </div>
         <div class="menu">
-            <nav>
+            <nav class="main-menu">
                 <ul>
                     <li><a href="#"><i class="icon-menu-1 menu-icon"></i><span class="menu-text">組合について</span></a></li>
                     <li><a href="#"><i class="icon-menu-2 menu-icon"></i><span class="menu-text">活 動 予 定</span></a></li>
@@ -35,13 +36,38 @@
                     <li><a href="#"><i class="icon-menu-4 menu-icon"></i><span class="menu-text">会 員 一 覧</span></a></li>
                     <li><a href="#"><i class="icon-menu-5 menu-icon"></i><span class="menu-text">組 合 加 入</span></a></li>
                 </ul>
-                <a href="#" id="pull"></a>
+                <!--<a href="#" id="pull"></a>-->
             </nav>
         </div>
+        <nav class="st-menu st-effect-3" id="menu-3">
+            <div class="sp-menu-title">
+                <h3>メニュー <button data-effect="st-effect-3" id="close_btn">閉じる</button></h3><!--<img src="./images/nav-icon.png" alt="">-->
+            </div>
+            <ul>
+                <li><a href="#"><i class="icon-menu-1 menu-icon"></i><span class="menu-text">組合について</span></a></li>
+                <li><a href="#"><i class="icon-menu-2 menu-icon"></i><span class="menu-text">活 動 予 定</span></a></li>
+                <li><a href="#"><i class="icon-menu-3 menu-icon"></i><span class="menu-text">活 動 実 績</span></a></li>
+                <li><a href="#"><i class="icon-menu-4 menu-icon"></i><span class="menu-text">会 員 一 覧</span></a></li>
+                <li><a href="#"><i class="icon-menu-5 menu-icon"></i><span class="menu-text">組 合 加 入</span></a></li>
+            </ul>
+        </nav>
+
+        <div class="sp-menu">
+            <div class="st-content"><!-- this is the wrapper for the content -->
+                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+                    <div class="main clearfix">
+                        <div id="st-trigger-effects" class="column">
+                            <button data-effect="st-effect-3"><img src="./images/nav-icon.png" alt=""></button>
+                        </div>
+                    </div><!-- /main -->
+                </div><!-- /st-content-inner -->
+            </div><!-- /st-content -->
+        </div>
+
     </header>
     <!--End header-->
 
-    <main class="clear">
+    <main class="clear st-container">
         <section id="header-text-block">
             <div class="container">
                 <div class="wrap-header-txt">
@@ -346,7 +372,10 @@
         </div>
     </footer>
     <!--End footer-->
+</div>
     <script type="text/javascript" src="./js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="./js/custom.js"></script>
+    <script type="text/javascript" src="./js/classie.js"></script>
+    <script type="text/javascript" src="./js/sidebarEffects.js"></script>
 </body>
 </html>

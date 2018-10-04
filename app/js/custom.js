@@ -20,4 +20,9 @@ $(function(){
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+
+    /*Close menu button*/
+    $("#close_btn").click(function(){
+        $( "#st-container" ).removeClass( "st-menu-open" )
+    });
 });
