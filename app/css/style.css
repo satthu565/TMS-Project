@@ -708,6 +708,9 @@ footer .up-top a {
 #katsudo-content .container .katsudo-table table tr .text-center {
   text-align: center;
 }
+#katsudo-content .container .katsudo-table table tr .text-center a {
+  min-width: 40px;
+}
 #katsudo-content .container .footer-text {
   padding: 15px 0 0 5px;
 }
