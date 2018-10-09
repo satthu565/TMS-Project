@@ -751,7 +751,8 @@ footer{
             background: @white;
 
             &:hover{
-              .link_hover(@blue-base,@white)
+              .link_hover(@blue-base,@white);
+              border: 1px solid @white;
             }
           }
         }
@@ -1139,7 +1140,7 @@ footer{
       font-size: 13px;
       margin-top: 10px;
     }
-    button[type='submit']{
+    input[type='submit']{
       width: 200px;
       height: 30px;
       background-color: @gray;

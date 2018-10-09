@@ -639,6 +639,7 @@ footer .up-top a {
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .button a:hover {
   background-color: #2660AD;
   color: #FFF;
+  border: 1px solid #FFF;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .text {
   margin-left: 20px;
@@ -1005,7 +1006,7 @@ footer .up-top a {
   font-size: 13px;
   margin-top: 10px;
 }
-#login-content .login-form button[type='submit'] {
+#login-content .login-form input[type='submit'] {
   width: 200px;
   height: 30px;
   background-color: #C9CACA;
@@ -1015,7 +1016,7 @@ footer .up-top a {
   font-size: 14px;
   font-weight: bold;
 }
-#login-content .login-form button[type='submit']:hover {
+#login-content .login-form input[type='submit']:hover {
   background-color: #2660AD;
   cursor: pointer;
 }
