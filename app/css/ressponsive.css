@@ -576,6 +576,33 @@
   #partner .partner-map .map-content .map-button .list-button a {
     width: 90%;
   }
+  #partner .partner-map .map-title .title {
+    font-size: 6vw;
+  }
+  #partner .partner-map .map-title .description {
+    font-size: 3.2vw;
+  }
+  #banner .top-banner .caption {
+    left: 5%;
+    right: 5%;
+  }
+  #banner .top-banner .caption .big-slogan {
+    font-size: 5.5vw;
+    letter-spacing: 0;
+  }
+  #banner .top-banner .caption .smal-slogan {
+    font-size: 2.3vw;
+  }
+  #member-login .wrap_member_login .text {
+    font-size: 3.5vw;
+  }
+  #member-login .wrap_member_login .button {
+    font-size: 3.8vw;
+    padding: 1vw 20vw;
+  }
+  header .top-header .logo a {
+    width: 105%;
+  }
 }
 @media only screen and (max-width: 320px) {
   nav.main-menu li {
@@ -585,5 +612,15 @@
   }
   nav.main-menu li a {
     border-bottom: 1px solid #576979;
+  }
+  .st-container .st-pusher .st-content button img {
+    width: 80%;
+  }
+  .st-container .st-pusher .st-content {
+    top: 1.5vw;
+    right: 1vw;
+  }
+  header .top-header .logo a {
+    width: 110%;
   }
 }
