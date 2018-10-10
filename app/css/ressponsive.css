@@ -564,6 +564,18 @@
   #news .wrap-news-item .item a .inner .wrap-item-title {
     min-height: 40px;
   }
+  #partner .partner-map .map-content .map-button .wrap-button {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #partner .partner-map .map-content .map-button .wrap-button a {
+    height: 17vw;
+    font-size: 4.5vw;
+    margin-top: 2vw;
+  }
+  #partner .partner-map .map-content .map-button .list-button a {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 320px) {
   nav.main-menu li {
