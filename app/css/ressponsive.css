@@ -418,6 +418,12 @@
     border-left: 1vw solid #2660AD;
     border-bottom: 0.8vw solid transparent;
   }
+  footer .up-top {
+    display: none;
+  }
+  .mapify-popOver {
+    width: 18vw!important;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -689,6 +695,12 @@
   footer .footer-right .middle-text,
   footer .footer-right .copyright {
     font-size: 2vw;
+  }
+  .mapify-popOver {
+    width: 28vw!important;
+  }
+  .mapify-popOver strong {
+    font-size: 4vw!important;
   }
 }
 @media only screen and (max-width: 320px) {
