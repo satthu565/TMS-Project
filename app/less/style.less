@@ -284,34 +284,44 @@ header{
       max-width: 33.33%;
       padding: 15px 20px;
 
-      .inner{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid @gray-dark;
-        color: @gray-dark;
+      a{
+        width: 100%;
 
-        .item-date,
-        .item-title{
-          font-size: 13px;
-          font-weight: bold;
-          text-align: left;
-          padding: 10px;
-        }
-        .item-date{
-          background: @blue-light;
-          border-top: 1px solid @gray-dark;
-        }
-        .wrap-item-title{
-          min-height: 55px;
+        .inner{
           position: relative;
+          display: flex;
+          flex-direction: column;
+          border: 1px solid @gray-dark;
+          color: @gray-dark;
 
+          .img-scale{
+            img{
+              width: 100%;
+            }
+          }
+          .item-date,
           .item-title{
-            padding-bottom: 20px;
-            position: absolute;
+            font-size: 13px;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px;
+          }
+          .item-date{
+            background: @blue-light;
+            border-top: 1px solid @gray-dark;
+          }
+          .wrap-item-title{
+            min-height: 55px;
+            position: relative;
+
+            .item-title{
+              padding-bottom: 20px;
+              position: absolute;
+            }
           }
         }
       }
+
     }
   }
 

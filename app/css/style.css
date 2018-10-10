@@ -238,29 +238,35 @@ header .top-header .header-button .icon-email {
   max-width: 33.33%;
   padding: 15px 20px;
 }
-#news .wrap-news-item .item .inner {
+#news .wrap-news-item .item a {
+  width: 100%;
+}
+#news .wrap-news-item .item a .inner {
   position: relative;
   display: flex;
   flex-direction: column;
   border: 1px solid #231815;
   color: #231815;
 }
-#news .wrap-news-item .item .inner .item-date,
-#news .wrap-news-item .item .inner .item-title {
+#news .wrap-news-item .item a .inner .img-scale img {
+  width: 100%;
+}
+#news .wrap-news-item .item a .inner .item-date,
+#news .wrap-news-item .item a .inner .item-title {
   font-size: 13px;
   font-weight: bold;
   text-align: left;
   padding: 10px;
 }
-#news .wrap-news-item .item .inner .item-date {
+#news .wrap-news-item .item a .inner .item-date {
   background: #F1F7F7;
   border-top: 1px solid #231815;
 }
-#news .wrap-news-item .item .inner .wrap-item-title {
+#news .wrap-news-item .item a .inner .wrap-item-title {
   min-height: 55px;
   position: relative;
 }
-#news .wrap-news-item .item .inner .wrap-item-title .item-title {
+#news .wrap-news-item .item a .inner .wrap-item-title .item-title {
   padding-bottom: 20px;
   position: absolute;
 }
