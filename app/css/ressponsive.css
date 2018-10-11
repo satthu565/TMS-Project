@@ -334,7 +334,7 @@
   }
   footer {
     font-size: 1.2vw;
-    padding: 5vw 6vw 1vw;
+    padding: 5vw 6vw 5vw;
   }
   footer .footer-left {
     float: none;
@@ -344,7 +344,7 @@
     float: none;
   }
   #news .news-button a {
-    padding: 5px 4vw;
+    padding: 5px 2vw;
   }
   footer .footer-left .top-text {
     display: none;
@@ -366,25 +366,26 @@
   }
   footer .footer-right .middle-text,
   footer .footer-right .copyright {
-    font-size: 1.5vw;
+    font-size: 1vw;
     padding-top: 1vw;
-    margin-top: 3vw;
-    border-top: 1px solid;
+    margin-top: 12vw;
   }
   footer .footer-left .map-button {
-    margin-top: 2vw;
-    padding: 0.5vw 8vw;
+    margin-top: 6vw;
+    padding: 0.8vw 13.5vw;
     font-size: 1.5vw;
     font-weight: bold;
+    margin-bottom: 2vw;
   }
   footer .footer-right .fl-wrap-button a.fl-left-button {
     float: none;
     margin: auto;
-    padding: 0.7vw 3.9vw;
+    padding: 0.7vw 9vw;
+    margin-bottom: 2.5vw;
   }
   footer .footer-right .fl-wrap-button a.fl-right-button {
     float: none;
-    padding: 0.7vw 4.7vw;
+    padding: 0.7vw 9.8vw;
     margin-top: 1vw;
   }
   footer .footer-right .middle-text {
@@ -676,25 +677,28 @@
   footer .footer-left .kanto-text {
     font-size: 2.3vw;
     margin-top: 5px;
+    margin-bottom: 2vw;
   }
   footer .footer-left .map-button {
-    margin-top: 2vw;
-    padding: 1vw 15vw;
+    margin-top: 7vw;
+    padding: 1.2vw 23.5vw;
     font-size: 2.5vw;
     font-weight: bold;
+    margin-bottom: 4vw;
   }
   footer .footer-right .fl-wrap-button a {
     font-size: 2.5vw;
   }
   footer .footer-right .fl-wrap-button a.fl-left-button {
-    padding: 1vw 8.1vw;
+    padding: 1vw 16.1vw;
+    margin-bottom: 5vw;
   }
   footer .footer-right .fl-wrap-button a.fl-right-button {
-    padding: 1vw 9.5vw;
+    padding: 1vw 17.5vw;
   }
   footer .footer-right .middle-text,
   footer .footer-right .copyright {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   .mapify-popOver {
     width: 28vw!important;
@@ -752,20 +756,19 @@
   #news .wrap-news-item .item a .inner .wrap-item-title {
     min-height: 18vw;
   }
-  footer .footer-left img {
+  /*  footer .footer-left img{
     width: 90vw;
   }
-  footer .footer-left .kanto-text {
+  footer .footer-left .kanto-text{
     font-size: 3vw;
   }
-  footer .footer-right .fl-wrap-button a {
+  footer .footer-right .fl-wrap-button a{
     font-size: 3vw;
   }
-  footer .footer-left .map-button {
-    padding: 1vw 16.6vw;
+  footer .footer-left .map-button{
+    padding: 1.5vw 25.5vw;
   }
-  footer .footer-right .middle-text,
-  footer .footer-right .copyright {
-    font-size: 2.5vw;
-  }
+  footer .footer-right .middle-text, footer .footer-right .copyright{
+    font-size: 2.3vw;
+  }*/
 }

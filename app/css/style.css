@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: udshingont-regular;
 }
 .clear {
   clear: both;
@@ -25,6 +26,19 @@ a {
   src: url('../fonts/tms_font.eot?w71b6v#iefix') format('embedded-opentype'), url('../fonts/tms_font.ttf?w71b6v') format('truetype'), url('../fonts/tms_font.woff?w71b6v') format('woff'), url('../fonts/tms_font.svg?w71b6v#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+/*Font face*/
+@font-face {
+  font-family: Din_bold;
+  src: url("../fonts/D-DIN-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: Din;
+  src: url("../fonts/D-DIN.otf") format("opentype");
+}
+@font-face {
+  font-family: Din_alter_bold;
+  src: url("../fonts/D-DIN.otf") format("opentype");
 }
 [class^="icon-"],
 [class*=" icon-"] {
@@ -123,9 +137,9 @@ header .top-header .header-button a:hover {
 }
 header .top-header .header-button a span {
   font-size: 15px;
-  font-weight: bold;
   display: inline-block;
   vertical-align: middle;
+  font-family: udshingont-medium;
 }
 header .top-header .header-button .icon-email {
   font-size: 14px;
@@ -162,8 +176,8 @@ header .top-header .header-button .icon-email {
 }
 .menu ul li a .menu-text {
   font-size: 16px;
-  font-weight: bold;
   vertical-align: middle;
+  font-family: udshingont-medium;
 }
 /*Banner*/
 #banner .top-banner {
@@ -183,13 +197,13 @@ header .top-header .header-button .icon-email {
 }
 #banner .top-banner .caption .big-slogan {
   font-size: 30px;
-  font-weight: bold;
   letter-spacing: 5px;
 }
 #banner .top-banner .caption .smal-slogan {
   margin-top: 15px;
   font-size: 13px;
   font-weight: bold;
+  font-family: Din_alter_bold;
 }
 /*Member_login*/
 #member-login .wrap_member_login {
@@ -201,6 +215,7 @@ header .top-header .header-button .icon-email {
   font-size: 14px;
   margin-bottom: 10px;
   color: #FFF;
+  font-family: Din_alter_bold;
 }
 #member-login .wrap_member_login .button {
   border: 1px solid #FFF;
@@ -223,10 +238,12 @@ header .top-header .header-button .icon-email {
 #news .title .title-main {
   font-weight: bold;
   font-size: 30px;
+  font-family: Din_bold;
 }
 #news .title .title-description {
   font-size: 13px;
   font-weight: bold;
+  margin-top: 10px;
 }
 #news .wrap-news-item {
   display: flex;
@@ -278,7 +295,6 @@ header .top-header .header-button .icon-email {
   color: #FFF;
   background: #C9CACA;
   font-size: 13px;
-  font-weight: bold;
   padding: 5px 55px;
 }
 #news .news-button a:hover {
@@ -315,6 +331,7 @@ header .top-header .header-button .icon-email {
   font-size: 20px;
   font-weight: bold;
   color: #2660AD;
+  font-family: udshingont-medium;
 }
 #monitoring-service .partner-img .inner-partner .shape-arrow {
   border-top: 7px solid transparent;
@@ -335,6 +352,7 @@ header .top-header .header-button .icon-email {
 #partner .partner-map .map-title .title {
   font-size: 30px;
   font-weight: bold;
+  font-family: Din_bold;
 }
 #partner .partner-map .map-title .description {
   font-size: 13px;
@@ -409,9 +427,11 @@ footer .footer-left .top-text {
 footer .footer-left .kanto-text {
   font-weight: bold;
   font-size: 13px;
+  font-family: Din_alter_bold;
 }
 footer .footer-left img {
   width: 110%;
+  margin-bottom: 5px;
 }
 footer .footer-left .post-text {
   margin: 20px 0 10px;
@@ -419,7 +439,8 @@ footer .footer-left .post-text {
 footer .footer-left .map-button {
   border: 1px solid #FFF;
   color: #FFF;
-  padding: 0 10px;
+  padding: 3px 10px;
+  font-family: Din_alter_bold;
 }
 footer .footer-left .map-button:hover {
   background-color: #FFF;
@@ -435,6 +456,7 @@ footer .footer-right .fl-wrap-button a {
   padding: 2px 50px;
   color: #FFF;
   border: 1px solid #FFF;
+  font-size: 13px;
 }
 footer .footer-right .fl-wrap-button a:hover {
   background-color: #FFF;
