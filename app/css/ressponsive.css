@@ -207,7 +207,6 @@
       font-size: 1.5vw;
     }*/
   header .top-header .header-button a {
-    padding: 0.1vw 1.1vw;
     margin-top: 2vw;
   }
   header .top-header .header-button .icon-email {
@@ -315,7 +314,7 @@
   }
   #partner .partner-map .map-content .map-button {
     height: auto;
-    margin-top: 7vw;
+    margin-top: 5vw;
     padding-left: 0;
     width: 100%;
     justify-content: center;
@@ -425,6 +424,9 @@
   .mapify-popOver {
     width: 18vw!important;
   }
+  header .top-header .logo {
+    padding: 10px 0 10px;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -440,7 +442,7 @@
     font-size: 1.7vw;
   }
   header .top-header .header-button .icon-email {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   #news .wrap-news-item .item .inner .item-date,
   #news .wrap-news-item .item .inner .item-title {

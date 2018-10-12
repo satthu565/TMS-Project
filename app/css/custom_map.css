@@ -1,6 +1,6 @@
 .mapify-popOver strong {
-    font-weight: 400;
-    font-size: 2vw;
+    /*font-weight: 400;*/
+    font-size: 1.5vw;
     line-height: 1em;
     display: block;
     margin-bottom: 10px;
@@ -9,7 +9,7 @@
 
 .mapify-popOver {
     color: #999;
-    font-size: 1vw;
+    font-size: 1.5vw;
     height: 12vw;
     /*margin-left: 1px!important;*/
 }
@@ -38,5 +38,3 @@
     stroke: #000;
     stroke-width: 2;
 }
-
-

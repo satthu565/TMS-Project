@@ -5,20 +5,6 @@
 .clear {
   clear: both;
 }
-a {
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  transition: 0.3s all;
-}
-.map-hover {
-  background: #2EA7E0;
-  color: #FFF !important;
-}
-.border-bottom-dash {
-  border-bottom: 1px solid #2660AD;
-  border-style: dashed;
-}
 /*Font icon*/
 @font-face {
   font-family: 'icomoon';
@@ -38,7 +24,21 @@ a {
 }
 @font-face {
   font-family: Din_alter_bold;
-  src: url("../fonts/D-DIN.otf") format("opentype");
+  src: url("../fonts/DIN_Alternate_Bold.otf") format("opentype");
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s all;
+}
+.map-hover {
+  background: #2EA7E0;
+  color: #FFF !important;
+}
+.border-bottom-dash {
+  border-bottom: 1px solid #2660AD;
+  border-style: dashed;
 }
 [class^="icon-"],
 [class*=" icon-"] {
@@ -117,7 +117,7 @@ header .top-header {
 }
 header .top-header .logo {
   float: left;
-  padding: 10px 0 5px;
+  padding: 15px 0 15px;
 }
 header .top-header .header-button {
   float: right;
@@ -126,7 +126,7 @@ header .top-header .header-button a {
   color: #FFF;
   background: #2660AD;
   padding: 5px 15px;
-  margin-top: 12px;
+  margin-top: 20px;
   position: relative;
 }
 header .top-header .header-button a:hover {
@@ -196,7 +196,7 @@ header .top-header .header-button .icon-email {
   text-align: center;
 }
 #banner .top-banner .caption .big-slogan {
-  font-size: 30px;
+  font-size: 31px;
   letter-spacing: 5px;
 }
 #banner .top-banner .caption .smal-slogan {
@@ -243,7 +243,7 @@ header .top-header .header-button .icon-email {
 #news .title .title-description {
   font-size: 13px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 #news .wrap-news-item {
   display: flex;
@@ -328,7 +328,7 @@ header .top-header .header-button .icon-email {
   margin-left: 5vw;
 }
 #monitoring-service .partner-img .inner-partner .text-inner {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   color: #2660AD;
   font-family: udshingont-medium;
@@ -356,6 +356,7 @@ header .top-header .header-button .icon-email {
 }
 #partner .partner-map .map-title .description {
   font-size: 13px;
+  margin-top: 5px;
 }
 #partner .partner-map .map-content {
   display: flex;
@@ -453,7 +454,7 @@ footer .footer-right .fl-wrap-button {
   text-align: right;
 }
 footer .footer-right .fl-wrap-button a {
-  padding: 2px 50px;
+  padding: 5px 50px;
   color: #FFF;
   border: 1px solid #FFF;
   font-size: 13px;
@@ -478,13 +479,18 @@ footer .footer-right .copyright {
 footer .up-top {
   right: 7vw;
   position: absolute;
-  top: -20px;
+  top: -32px;
 }
 footer .up-top a {
   font-size: 13px;
   color: #FFF;
   background: #2660AD;
-  padding: 5px 30px;
+  padding: 6px 30px;
+}
+footer .up-top a:hover {
+  background: #023982;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #fadein-banner {
   font-weight: bold;
@@ -501,11 +507,13 @@ footer .up-top a {
   font-size: 21px;
   color: #FFF;
   font-weight: bold;
+  font-family: udshingont-medium;
 }
 #header-text-block .wrap-header-txt .desc {
   font-size: 15px;
   font-weight: bold;
   color: #FFF;
+  font-family: Din_alter_bold;
 }
 #header-text-block .login-header-txt {
   display: flex;
@@ -538,6 +546,7 @@ footer .up-top a {
   border-radius: 5px;
   margin: 0 20px;
   text-align: center;
+  font-family: udshingont-medium;
 }
 #header-button-block .wrap-header-btn .header-content-btn:hover {
   background-color: #2660AD;
@@ -557,6 +566,7 @@ footer .up-top a {
   border-radius: 5px;
   margin: 0 20px;
   text-align: center;
+  font-family: udshingont-medium;
 }
 #block-footer-button .wrap-footer-btn .footer-content-btn:hover {
   background-color: #2660AD;
@@ -602,6 +612,9 @@ footer .up-top a {
 #enkaku-content .wrap-content-item .item .container .row .left-block {
   min-width: 110px;
 }
+#enkaku-content .wrap-content-item .item .container .row .left-block .date-time {
+  letter-spacing: 2px;
+}
 #enkaku-content .wrap-content-item .item .container .row .right-block {
   padding-left: 60px;
 }
@@ -613,19 +626,25 @@ footer .up-top a {
 #enkaku-content .wrap-content-item .foot-date .black {
   color: #231815;
 }
+#enkaku-content .letter_2 {
+  letter-spacing: 2px;
+}
 /*Syusi content*/
 #syusi-content .syusi-title {
-  padding: 60px 0;
+  padding: 55px 0;
 }
 #syusi-content .syusi-title h2 {
-  font-size: 50px;
+  font-size: 37px;
   color: #2660AD;
+}
+#syusi-content .syusi-text {
+  letter-spacing: 2px;
 }
 #syusi-content .syusi-text .text-block {
   margin-bottom: 40px;
 }
 #syusi-content .syusi-text .text-block p {
-  font-size: 21px;
+  font-size: 16px;
 }
 #syusi-content .syusi-text .text-block:last-child {
   margin-bottom: 90px;
@@ -644,12 +663,13 @@ footer .up-top a {
   font-size: 18px;
   color: #2660AD;
   margin-bottom: 30px;
+  font-family: udshingont-medium;
 }
 #zigyonaiyo-content .zigyou-block .container .top-content {
   margin-bottom: 15px;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container {
-  padding: 65px 110px;
+  padding: 60px 110px;
   display: flex;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .button {
@@ -663,6 +683,7 @@ footer .up-top a {
   min-width: 225px;
   text-align: center;
   background: #FFF;
+  font-family: udshingont-medium;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .button a:hover {
   background-color: #2660AD;
@@ -692,6 +713,7 @@ footer .up-top a {
 #katsudo-content .container .katsudo-title p {
   font-size: 18px;
   color: #2660AD;
+  font-family: udshingont-medium;
 }
 #katsudo-content .container .katsudo-table table {
   width: 100%;
@@ -702,11 +724,13 @@ footer .up-top a {
   border: 1px solid #2660AD;
   text-align: center;
   padding: 20px;
+  font-family: udshingont-medium;
 }
 #katsudo-content .container .katsudo-table table tr td {
   border: 1px solid #2660AD;
   padding: 20px;
   vertical-align: top;
+  font-family: udshingont-medium;
 }
 #katsudo-content .container .katsudo-table table tr td img {
   max-width: 40px;
@@ -746,6 +770,7 @@ footer .up-top a {
 #katsudo-content .container .footer-text p {
   font-size: 13px;
   color: #2660AD;
+  font-family: udshingont-medium;
 }
 /*Katudozisseki2 content*/
 #katudozisseki2-content .top-content {
@@ -773,6 +798,7 @@ footer .up-top a {
   font-size: 18px;
   color: #2660AD;
   margin-bottom: 30px;
+  font-family: udshingont-medium;
 }
 #katudozisseki2-content .main-content .table-item table {
   width: 100%;
@@ -894,6 +920,7 @@ footer .up-top a {
   text-align: center;
   padding: 15px 40px;
   margin-bottom: 30px;
+  font-family: udshingont-medium;
 }
 #kumiaiinitiran-content .container .top-content .top-button a:hover {
   background-color: #2660AD;
@@ -904,7 +931,8 @@ footer .up-top a {
   color: #2660AD;
   position: relative;
   margin: 50px 0;
-  padding-left: 5px;
+  padding: 5px;
+  font-family: udshingont-medium;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .title:before {
   content: url(../images/line.svg);
@@ -917,7 +945,7 @@ footer .up-top a {
   content: url(../images/line.svg);
   position: absolute;
   width: 100%;
-  bottom: -12px;
+  bottom: -14px;
   left: 0;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .location-box {
@@ -980,6 +1008,7 @@ footer .up-top a {
   text-align: center;
   padding: 15px 40px;
   margin-bottom: 30px;
+  font-family: udshingont-medium;
 }
 #kumiaiinitiran-content .container .bottom-content .top-button a:hover {
   background-color: #2660AD;
@@ -1003,6 +1032,8 @@ footer .up-top a {
 }
 #login-content .login-title .small-text {
   font-size: 14px;
+  font-family: Din_alter_bold;
+  margin-bottom: 5px;
 }
 #login-content .login-title .large-text {
   font-size: 21px;
@@ -1014,11 +1045,15 @@ footer .up-top a {
 #login-content .login-form p {
   text-align: left;
   font-size: 14px;
+  margin-bottom: 5px;
 }
 #login-content .login-form input {
   height: 40px;
   width: 100%;
   border: none;
+}
+#login-content .login-form input[type='text'],
+#login-content .login-form input[type='password'] {
   padding-left: 15px;
 }
 #login-content .login-form input[type='checkbox'] {
@@ -1043,6 +1078,7 @@ footer .up-top a {
   margin-top: 40px;
   font-size: 14px;
   font-weight: bold;
+  font-family: Din_alter_bold;
 }
 #login-content .login-form input[type='submit']:hover {
   background-color: #2660AD;
@@ -1068,6 +1104,7 @@ footer .up-top a {
 }
 #gaiyo-content .location .wrap-content table tr td {
   padding: 23px 30px;
+  line-height: 30px;
 }
 #gaiyo-content .location .wrap-content table tr td.name {
   min-width: 20%;
@@ -1082,11 +1119,13 @@ footer .up-top a {
   border: 1px solid #2660AD;
   margin-top: 15px;
   min-width: 156px;
+  font-family: udshingont-medium;
 }
 #gaiyo-content .location .wrap-content table tr td.desc .gmap-button .icon-location_icon {
   font-size: 20px;
   display: inline-block;
   margin-right: 8px;
+  vertical-align: sub;
 }
 #gaiyo-content .location .wrap-content table tr td.desc .gmap-button img {
   max-width: 13px;
@@ -1130,6 +1169,7 @@ footer .up-top a {
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr td {
   padding: 23px 30px;
+  line-height: 30px;
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr td.name {
   min-width: 20%;
@@ -1144,11 +1184,13 @@ footer .up-top a {
   border: 1px solid #2660AD;
   margin-top: 15px;
   min-width: 156px;
+  font-family: udshingont-medium;
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button .icon-location_icon {
   font-size: 20px;
   display: inline-block;
   margin-right: 8px;
+  vertical-align: sub;
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr td.desc .gmap-button img {
   max-width: 13px;
@@ -1173,10 +1215,11 @@ footer .up-top a {
   font-size: 18px;
   color: #2660AD;
   margin-bottom: 40px;
+  font-family: udshingont-medium;
 }
 #gaiyo-content .gaiyo-block .wrap-content ol li {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 #gaiyo-content .gaiyo-block .wrap-content ol li::before {
   counter-increment: my-sec-counter;
@@ -1185,6 +1228,11 @@ footer .up-top a {
 }
 #gaiyo-content .gaiyo-block .wrap-content ol li:last-child {
   margin-bottom: 0;
+}
+#gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(1),
+#gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(2),
+#gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(6) {
+  margin-bottom: 60px;
 }
 /*Toha content*/
 #truck-banner img {
@@ -1203,6 +1251,8 @@ footer .up-top a {
 #toha-content .toha-service .container .service-title .big-text {
   font-size: 32px;
   font-weight: bold;
+  font-family: Din_bold;
+  margin-bottom: 5px;
 }
 #toha-content .toha-service .container .service-title .small-text {
   font-size: 16px;
@@ -1224,12 +1274,13 @@ footer .up-top a {
   font-size: 22px;
   color: #FFF;
   background-color: #9AC3C3;
-  padding: 7px 0;
+  padding: 10px 0;
+  font-family: udshingont-medium;
 }
 #toha-content .benefit .bnf-item .bnf-desc {
   font-size: 16px;
   color: #231815;
-  padding: 15px 0;
+  padding: 15px 0 25px;
   background-color: #F1F7F7;
 }
 #toha-content .benefit .bnf-item .bnf-desc .blue-text {
@@ -1244,6 +1295,7 @@ footer .up-top a {
 }
 #kumiaibosyu-content .wrap-kumiai {
   padding: 75px 0px 65px;
+  line-height: 30px;
 }
 #kumiaibosyu-content .wrap-kumiai .recruitment {
   margin-bottom: 60px;
@@ -1252,6 +1304,7 @@ footer .up-top a {
   color: #2660AD;
   font-size: 18px;
   margin-bottom: 35px;
+  font-family: udshingont-medium;
 }
 #kumiaibosyu-content .wrap-kumiai .kumiai-location .wrap-row {
   display: flex;
@@ -1318,6 +1371,7 @@ footer .up-top a {
   position: relative;
   font-size: 22px;
   margin: 0 100px;
+  font-family: udshingont-medium;
 }
 #kumiaibosyu-content .button .wrap-button a p {
   font-size: 16px;
@@ -1325,6 +1379,7 @@ footer .up-top a {
   background-color: #FFF;
   border-radius: 25px;
   padding: 0px 20px;
+  font-family: udshingont-regular;
 }
 #kumiaibosyu-content .button .wrap-button a:first-child {
   background: #2660AD;
@@ -1345,7 +1400,8 @@ footer .up-top a {
   background: #FFF;
   top: -1px;
   right: -120px;
-  padding: 11.5px 25px;
+  padding: 13.5px 25px;
+  font-family: Din_bold;
 }
 #kumiaibosyu-content .price .container {
   padding: 60px 0px 80px;
@@ -1357,6 +1413,7 @@ footer .up-top a {
   border-top: 1px solid #231815;
   border-bottom: 1px solid #231815;
   padding: 30px 0;
+  line-height: 30px;
 }
 #kumiaibosyu-content .price .container .wrap-price .left-content {
   min-width: 25%;
