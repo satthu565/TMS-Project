@@ -88,6 +88,9 @@
   .mapify-popOver {
     width: 22vw!important;
   }
+  .row {
+    padding: 0 110px;
+  }
 }
 /*@media only screen and (max-width: 1200px) and (min-width: 1024px) {
   #partner .partner-map .map-content .map-button .wrap-button a {
@@ -427,16 +430,56 @@
   header .top-header .logo {
     padding: 10px 0 10px;
   }
+  #header-text-block .wrap-header-txt {
+    padding: 3vw 4vw;
+  }
+  #header-text-block .wrap-header-txt .title {
+    font-size: 3vw;
+  }
+  #header-text-block .wrap-header-txt .desc {
+    font-size: 2vw;
+  }
+  #header-button-block .wrap-header-btn {
+    padding: 5vw 0 4vw 0;
+  }
+  #header-button-block .wrap-header-btn .header-content-btn {
+    padding: 2vw 1vw;
+    margin: 0 15px;
+    font-size: 2vw;
+  }
+  #block-footer-button .wrap-footer-btn {
+    padding: 4vw 0 4vw 0;
+  }
+  #block-footer-button .wrap-footer-btn .footer-content-btn {
+    padding: 2vw 1vw;
+    margin: 0 15px;
+    font-size: 2vw;
+  }
+  #enkaku-content .top-date {
+    padding: 6vw 0 8vw 0px;
+  }
+  #enkaku-content .wrap-content-item .foot-date {
+    padding: 6vw 0 8vw 0px;
+  }
+  /* #enkaku-content .top-date p{
+    font-size: 2vw;
+  }*/
+  #enkaku-content .wrap-content-item .item {
+    padding: 3vw 5vw;
+  }
+  .row {
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
     padding: 1vw 2vw ;
   }
   .menu ul li a .menu-text {
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
   .menu ul li a .menu-icon {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   header .top-header .header-button a span {
     font-size: 1.7vw;
@@ -707,6 +750,37 @@
   }
   .mapify-popOver strong {
     font-size: 4vw!important;
+  }
+  #header-text-block .wrap-header-txt .title {
+    font-size: 4vw;
+  }
+  #header-text-block .wrap-header-txt .desc {
+    font-size: 3vw;
+  }
+  #header-button-block .wrap-header-btn .header-content-btn {
+    padding: 3.5vw 6vw;
+    margin: 5px 11px;
+    font-size: 4vw;
+  }
+  #block-footer-button .wrap-footer-btn .footer-content-btn {
+    padding: 3.5vw 6vw;
+    margin: 5px 11px;
+    font-size: 4vw;
+  }
+  #enkaku-content .wrap-content-item .item .container .row {
+    flex-wrap: wrap;
+  }
+  #enkaku-content .wrap-content-item .item .container .row .left-block .date-time,
+  #enkaku-content .wrap-content-item .item .container .row p {
+    display: inline-block;
+  }
+  #enkaku-content .wrap-content-item .item .container .row .right-block {
+    padding-left: 0px;
+    width: 100%;
+  }
+  #enkaku-content .wrap-content-item .item .container .row .left-block {
+    margin-bottom: 5px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 320px) {

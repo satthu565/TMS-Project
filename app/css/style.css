@@ -667,7 +667,6 @@ footer .up-top a:hover {
 }
 #enkaku-content .wrap-content-item .item .container .row {
   display: flex;
-  flex-wrap: wrap;
 }
 #enkaku-content .wrap-content-item .item .container .row p {
   font-size: 17px;
