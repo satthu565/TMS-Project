@@ -433,12 +433,6 @@
   #header-text-block .wrap-header-txt {
     padding: 3vw 4vw;
   }
-  #header-text-block .wrap-header-txt .title {
-    font-size: 3vw;
-  }
-  #header-text-block .wrap-header-txt .desc {
-    font-size: 2vw;
-  }
   #header-button-block .wrap-header-btn {
     padding: 5vw 0 4vw 0;
   }
@@ -769,12 +763,6 @@
   .mapify-popOver strong {
     font-size: 4vw!important;
   }
-  #header-text-block .wrap-header-txt .title {
-    font-size: 4vw;
-  }
-  #header-text-block .wrap-header-txt .desc {
-    font-size: 3vw;
-  }
   #header-button-block .wrap-header-btn .header-content-btn {
     padding: 3.5vw 6vw;
     margin: 5px 11px;
@@ -805,6 +793,7 @@
   }
   #gaiyo-content .location .wrap-content table tr td.name {
     padding-bottom: 0;
+    width: 100%;
   }
   #gaiyo-content .location .wrap-content table tr td.desc {
     padding-top: 0;
@@ -874,4 +863,10 @@
   footer .footer-right .middle-text, footer .footer-right .copyright{
     font-size: 2.3vw;
   }*/
+  #header-text-block .wrap-header-txt .title {
+    font-size: 19px;
+  }
+  #header-text-block .wrap-header-txt .desc {
+    font-size: 13px;
+  }
 }
