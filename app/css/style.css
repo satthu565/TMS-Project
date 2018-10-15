@@ -1158,7 +1158,6 @@ footer .up-top a:hover {
 }
 #gaiyo-content .location .wrap-content table tr {
   display: flex;
-  flex-wrap: wrap;
   border-bottom: 1px solid #231815;
 }
 #gaiyo-content .location .wrap-content table tr:last-child {
@@ -1223,7 +1222,6 @@ footer .up-top a:hover {
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr {
   display: flex;
-  flex-wrap: wrap;
   border-bottom: 1px solid #231815;
 }
 #gaiyo-content .gaiyo-block .wrap-content table tr:last-child {

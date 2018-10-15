@@ -470,6 +470,24 @@
   .row {
     padding: 0;
   }
+  #gaiyo-content .location .wrap-content,
+  #gaiyo-content .gaiyo-block .wrap-content {
+    padding: 5vw 3vw;
+  }
+  #gaiyo-content .location .wrap-content table tr td {
+    padding: 15px 20px;
+  }
+  #gaiyo-content .location .wrap-content table tr td.name {
+    min-width: 25%;
+  }
+  #gaiyo-content .gaiyo-block .wrap-content .title {
+    margin-bottom: 20px;
+  }
+  #gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(1),
+  #gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(2),
+  #gaiyo-content .gaiyo-block .wrap-content ol li:nth-child(6) {
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -781,6 +799,15 @@
   #enkaku-content .wrap-content-item .item .container .row .left-block {
     margin-bottom: 5px;
     width: 100%;
+  }
+  #gaiyo-content .location .wrap-content table tr {
+    flex-wrap: wrap;
+  }
+  #gaiyo-content .location .wrap-content table tr td.name {
+    padding-bottom: 0;
+  }
+  #gaiyo-content .location .wrap-content table tr td.desc {
+    padding-top: 0;
   }
 }
 @media only screen and (max-width: 320px) {
