@@ -892,6 +892,7 @@ footer .up-top a:hover {
   padding: 25px 160px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #katudozisseki2-content .wrap-pagination .pagination .page-list ul {
   position: relative;
