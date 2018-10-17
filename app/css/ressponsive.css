@@ -576,6 +576,28 @@
   #kumiaibosyu-content .price .container .wrap-price {
     padding: 15px 0;
   }
+  #kumiaiinitiran-content .container {
+    padding: 30px 0px;
+  }
+  #kumiaiinitiran-content .container .top-content .top-title,
+  #kumiaiinitiran-content .container .bottom-content .top-title {
+    margin-bottom: 20px;
+  }
+  #kumiaiinitiran-content .container .top-content .top-button a,
+  #kumiaiinitiran-content .container .bottom-content .top-button a {
+    width: 33%;
+    margin: 0 10px 10px;
+  }
+  #kumiaiinitiran-content .container .top-content .top-button,
+  #kumiaiinitiran-content .container .bottom-content .top-button {
+    margin-bottom: 35px;
+  }
+  #kumiaiinitiran-content .container .main-content .wrap-item .title {
+    margin: 37px 0;
+  }
+  #kumiaiinitiran-content .container .main-content .wrap-item .last-line {
+    padding: 15px 0 30px 0;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -943,6 +965,16 @@
   #kumiaibosyu-content .wrap-kumiai {
     line-height: 24px;
   }
+  #kumiaiinitiran-content .container .top-content .top-button a,
+  #kumiaiinitiran-content .container .bottom-content .top-button a {
+    width: 35%;
+    min-width: auto;
+    padding: 15px 5px;
+  }
+  #kumiaiinitiran-content .container .main-content .wrap-item .location-box .box-item .name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .st-container .st-pusher .st-content {
@@ -1039,5 +1071,9 @@
   }
   #kumiaibosyu-content .price .container {
     padding: 30px 0px 30px;
+  }
+  #kumiaiinitiran-content .container .top-content .top-button a,
+  #kumiaiinitiran-content .container .bottom-content .top-button a {
+    font-size: 14px;
   }
 }

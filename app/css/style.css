@@ -969,7 +969,7 @@ footer .up-top a:hover {
 #kumiaiinitiran-content .container .top-content .top-button {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 100px;
 }
 #kumiaiinitiran-content .container .top-content .top-button a {
@@ -983,6 +983,7 @@ footer .up-top a:hover {
   padding: 15px 40px;
   margin-bottom: 30px;
   font-family: udshingont-medium;
+  min-width: 180px;
 }
 #kumiaiinitiran-content .container .top-content .top-button a:hover {
   background-color: #2660AD;
@@ -997,18 +998,22 @@ footer .up-top a:hover {
   font-family: udshingont-medium;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .title:before {
-  content: url(../images/line.svg);
+  content: " ";
+  background-image: url(../images/line.png);
   position: absolute;
   width: 100%;
-  top: -20px;
+  top: -6px;
   left: 0;
+  height: 6px;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .title:after {
-  content: url(../images/line.svg);
+  content: " ";
+  background-image: url(../images/line.png);
   position: absolute;
   width: 100%;
-  bottom: -14px;
+  bottom: -6px;
   left: 0;
+  height: 6px;
 }
 #kumiaiinitiran-content .container .main-content .wrap-item .location-box {
   border: 1px solid #2660AD;
@@ -1036,6 +1041,9 @@ footer .up-top a:hover {
   opacity: 0.2;
   padding: 30px 0 50px 0;
 }
+#kumiaiinitiran-content .container .main-content .wrap-item .last-line img {
+  width: 100%;
+}
 #kumiaiinitiran-content .container .bottom-content .top-title {
   text-align: center;
   color: #2660AD;
@@ -1057,7 +1065,7 @@ footer .up-top a:hover {
 #kumiaiinitiran-content .container .bottom-content .top-button {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 100px;
 }
 #kumiaiinitiran-content .container .bottom-content .top-button a {
@@ -1071,6 +1079,7 @@ footer .up-top a:hover {
   padding: 15px 40px;
   margin-bottom: 30px;
   font-family: udshingont-medium;
+  min-width: 180px;
 }
 #kumiaiinitiran-content .container .bottom-content .top-button a:hover {
   background-color: #2660AD;
