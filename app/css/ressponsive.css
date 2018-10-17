@@ -599,6 +599,18 @@
   #kumiaiinitiran-content .container .main-content .wrap-item .last-line {
     padding: 15px 0 30px 0;
   }
+  #syusi-content .syusi-title {
+    padding: 30px 20px;
+  }
+  #syusi-content .syusi-text .text-block {
+    margin-bottom: 20px;
+  }
+  #syusi-content .syusi-text .text-block:last-child {
+    margin-bottom: 45px;
+  }
+  #syusi-content .syusi-text {
+    padding: 0 20px;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -979,6 +991,9 @@
   #katudozisseki2-content .wrap-pagination .pagination {
     padding: 25px 20px;
   }
+  #syusi-content .syusi-title h2 {
+    font-size: 26px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .st-container .st-pusher .st-content {
@@ -1084,5 +1099,20 @@
   #katudozisseki2-content .top-content a,
   #katudozisseki2-content .bottom-content a {
     font-size: 13px;
+  }
+  #syusi-content .syusi-title h2 {
+    font-size: 21px;
+  }
+  #syusi-content .syusi-title {
+    padding: 15px 20px;
+  }
+  #syusi-content .syusi-text .text-block p {
+    font-size: 14px;
+  }
+  #syusi-content .syusi-text .text-block {
+    margin-bottom: 15px;
+  }
+  #syusi-content .syusi-text .text-block:last-child {
+    margin-bottom: 30px;
   }
 }
