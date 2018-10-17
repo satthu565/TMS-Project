@@ -1057,7 +1057,6 @@ footer{
       padding: 25px 160px;
       display: flex;
       justify-content: space-between;
-      align-items: center;
 
       .page-number{
 
@@ -1521,6 +1520,7 @@ footer{
             text-align: center;
             border: @border;
             padding: 10px 0;
+            vertical-align: middle;
             &.white{
               background-color: @white;
             }
@@ -1532,6 +1532,18 @@ footer{
               background-color: @red-color;
               color: @white;
             }
+            .fill-text {
+              padding: 0 22px;
+
+              &:first-child{
+                padding-left: 0;
+              }
+              &:last-child{
+                padding-right: 0;
+              }
+            }
+            padding-left: 23px;
+            padding-right: 23px;
           }
           th{
             &.width-20{
@@ -1558,6 +1570,7 @@ footer{
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
 
       a{
         border: 1px solid @white;
@@ -1578,6 +1591,7 @@ footer{
         }
         &:first-child{
           background: @blue-base;
+          margin-left: 0;
 
           &:hover{
             background-color: #023982;

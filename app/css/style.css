@@ -892,7 +892,6 @@ footer .up-top a:hover {
   padding: 25px 160px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 #katudozisseki2-content .wrap-pagination .pagination .page-list ul {
   position: relative;
@@ -1390,6 +1389,9 @@ footer .up-top a:hover {
   text-align: center;
   border: 1px solid #231815;
   padding: 10px 0;
+  vertical-align: middle;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 #kumiaibosyu-content .wrap-kumiai .kumiai-table table tr td.white,
 #kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th.white {
@@ -1404,6 +1406,18 @@ footer .up-top a:hover {
 #kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th.red {
   background-color: #DD332D;
   color: #FFF;
+}
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr td .fill-text,
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th .fill-text {
+  padding: 0 22px;
+}
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr td .fill-text:first-child,
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th .fill-text:first-child {
+  padding-left: 0;
+}
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr td .fill-text:last-child,
+#kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th .fill-text:last-child {
+  padding-right: 0;
 }
 #kumiaibosyu-content .wrap-kumiai .kumiai-table table tr th.width-20 {
   width: 20%;
@@ -1424,6 +1438,7 @@ footer .up-top a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #kumiaibosyu-content .button .wrap-button a {
   border: 1px solid #FFF;
@@ -1444,6 +1459,7 @@ footer .up-top a:hover {
 }
 #kumiaibosyu-content .button .wrap-button a:first-child {
   background: #2660AD;
+  margin-left: 0;
 }
 #kumiaibosyu-content .button .wrap-button a:first-child:hover {
   background-color: #023982;
