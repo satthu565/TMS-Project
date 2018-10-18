@@ -542,13 +542,14 @@ footer .footer-right .copyright {
 footer .up-top {
   right: 7vw;
   position: absolute;
-  top: -32px;
+  top: -28px;
 }
 footer .up-top a {
   font-size: 13px;
   color: #FFF;
   background: #2660AD;
   padding: 6px 30px;
+  padding-bottom: 3px;
 }
 footer .up-top a:hover {
   background: #023982;
@@ -733,9 +734,9 @@ footer .up-top a:hover {
 #zigyonaiyo-content .zigyou-block .edu-wrap .container {
   padding: 60px 110px;
   display: flex;
+  align-items: center;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .button {
-  flex-basis: 370px;
   margin-right: 20px;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .button a {
@@ -754,7 +755,6 @@ footer .up-top a:hover {
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .container .text {
   margin-left: 20px;
-  padding-right: 140px;
 }
 #zigyonaiyo-content .zigyou-block .edu-wrap .type-1 {
   background-color: #F1F7F7;
