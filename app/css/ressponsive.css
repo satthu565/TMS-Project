@@ -446,6 +446,17 @@
   }
   #header-text-block .wrap-header-txt {
     padding: 3vw 4vw;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  #header-text-block .wrap-header-txt .left-text {
+    width: 100%;
+  }
+  #header-text-block .wrap-header-txt .desc {
+    display: none;
+  }
+  #login-content {
+    padding: 60px 0 120px;
   }
   #header-button-block .wrap-header-btn {
     padding: 5vw 0 4vw 0;
@@ -1003,6 +1014,42 @@
   #syusi-content .syusi-title h2 {
     font-size: 26px;
   }
+  #login-content .login-title .small-text {
+    font-size: 12px;
+  }
+  #login-content .login-title .large-text {
+    font-size: 17px;
+  }
+  #login-content .login-form {
+    max-width: 280px;
+  }
+  #header-text-block .login-header-txt .right-text p {
+    display: none;
+  }
+  #login-content {
+    padding: 30px 0 60px;
+  }
+  #login-content .login-title {
+    margin-bottom: 20px;
+  }
+  #login-content .login-form .user-name {
+    margin-bottom: 10px;
+  }
+  #login-content .login-form input[type='submit'] {
+    margin-top: 20px;
+  }
+  #login-content .login-form input {
+    height: 35px;
+  }
+  #login-content .login-form p {
+    font-size: 12px;
+  }
+  #login-content .login-title {
+    padding: 0 10px;
+  }
+  #login-content .login-form .remember {
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .st-container .st-pusher .st-content {
@@ -1123,5 +1170,11 @@
   }
   #syusi-content .syusi-text .text-block:last-child {
     margin-bottom: 30px;
+  }
+  #login-content .login-title .large-text {
+    font-size: 15px;
+  }
+  #login-content .login-form {
+    max-width: 250px;
   }
 }
