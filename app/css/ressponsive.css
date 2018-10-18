@@ -16,6 +16,9 @@
   header .top-header .logo img {
     width: 510px;
   }
+  .menu ul li a {
+    padding: 10px 60px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   #monitoring-service .partner-img .inner-partner .text-inner {
@@ -113,7 +116,7 @@
 }*/
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .menu ul li a {
-    padding: 1vw 2vw ;
+    padding: 1vw 4vw ;
   }
   .menu ul li a .menu-icon {
     font-size: 2vw;
@@ -176,6 +179,12 @@
   }*/
   .mapify-popOver {
     width: 18vw!important;
+  }
+  .menu ul li a {
+    padding: 1vw 2vw ;
+  }
+  .menu ul li a .menu-text {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 768px) {
