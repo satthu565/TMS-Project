@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1200px) {
+  .sp-menu .st-content{
+    display: none;
+  }
   .container {
     max-width: 1200px;
     width: 100%;
@@ -115,6 +118,9 @@
   }
 }*/
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .sp-menu .st-content{
+    display: none;
+  }
   .menu ul li a {
     padding: 1vw 4vw ;
   }
@@ -193,6 +199,12 @@
     width: 100%;
     margin: 0 auto;
   }
+  .header-button {
+    display: none;
+  }
+  .sp-menu .st-content{
+    display: block;
+  }
   #banner .top-banner .caption .big-slogan {
     font-size: 3vw;
   }
@@ -215,7 +227,12 @@
     font-size: 1.5vw;
   }
   header .logo img {
-    width: 60vw;
+    //width: 60vw;
+    width: 510px;
+  }
+  .st-container .st-pusher .st-content{
+    top: 20px;
+    right: 20px;
   }
   header .top-header {
     padding: 0 2vw;
@@ -645,6 +662,10 @@
   #syusi-content .syusi-text{
     padding: 0 20px;
   }
+  nav.main-menu ul {
+    display: none!important;
+    height: auto!important;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .menu ul li a {
@@ -709,6 +730,13 @@
 
 }
 @media only screen and (max-width: 600px) {
+  header .logo img{
+    width: 87vw;
+  }
+  .st-container .st-pusher .st-content{
+    right: 10px;
+    top: 3.5vw;
+  }
   header .top-header .header-button a {
     padding: 0.5vw 1.5vw;
   }
@@ -744,17 +772,9 @@
     padding: 30px 0;
   }
 }
-@media only screen and (min-width: 480px){
-  .sp-menu .st-content{
-    display: none;
-  }
-}
 @media only screen and (max-width: 480px) {
   .st-container .st-pusher .st-content{
     top: 3vw;
-  }
-  .header-button {
-    display: none;
   }
   header .top-header {
     text-align: center;
@@ -1077,7 +1097,8 @@
 }
 @media only screen and (max-width: 320px) {
   .st-container .st-pusher .st-content{
-    top: 3.5vw;
+    top: 1.5vw;
+    right: 1vw;
   }
   nav.main-menu li {
     display: block;
@@ -1089,10 +1110,6 @@
   }
   .st-container .st-pusher .st-content button img{
     width: 80%;
-  }
-  .st-container .st-pusher .st-content{
-    top: 1.5vw;
-    right: 1vw;
   }
   header .top-header .logo a{
     width: 110%;
